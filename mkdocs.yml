@@ -1,4 +1,8 @@
 site_name: Docs
+site_url: https://docs.katson.com
+site_author: Dmitry Katson
+site_description: CentralQ documentation
+
 theme: 
   name: material
   features:
@@ -30,7 +34,7 @@ extra:
   homepage: https://katson.com
   analytics:
     provider: google
-    property: G-9LN56348KM
+    property: !ENV GOOGLE_ANALYTICS_KEY
   generator: false
   social:
     - icon: fontawesome/brands/x-twitter

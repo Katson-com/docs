@@ -26,4 +26,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
+      - name: Set Environment Variable
+        run: echo "GOOGLE_ANALYTICS_KEY=${{ secrets.GOOGLE_ANALYTICS_KEY }}" >> $GITHUB_ENV
       - run: mkdocs gh-deploy --force
