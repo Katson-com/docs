@@ -103,6 +103,7 @@ nav:
       - Private Data: 
         - Files: centralq-chat/private-data/add-files.md
         - Webpages: centralq-chat/private-data/add-webpages.md
+        - Statistics: centralq-chat/private-data/statistics.md
       - Public Data: centralq-chat/public-data.md
     - Chat: centralq-chat/chat.md
     - Limitations: centralq-chat/limitations.md
