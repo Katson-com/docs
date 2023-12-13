@@ -12,19 +12,19 @@ Explore <a href="http://www.centralq.ai" target="_blank">CentralQ.ai</a> – a p
 
 Compare the features and offerings of CentralQ Chat Pro and CentralQ.ai to find the best fit for your needs.
 
-| Feature                           | CentralQ Chat Pro                           | CentralQ.ai                               |
+| Feature                           | CentralQ Chat Pro                          | CentralQ.ai                                |
 |-----------------------------------|--------------------------------------------|--------------------------------------------|
 | **Pricing (Monthly)**             | $29 per user                               | Free                                       |
 | **Pricing (Annual)**              | $299 per user/year                         | Free                                       |
-| **Free Trial**                    | 30 days                                          | -                                          |
-| **Business Central Embedded**     | ✓                                          | -                                          |
-| **Chat Functionality**            | ✓                                          | -                                          |
-| **Microsoft Learn Integration**   | ✓                                          | ✓                                          |
-| **Community Knowledge Integration**| ✓                                          | ✓                                          |
-| **Private Knowledge Access**      | ✓                                          | -                                          |
+| **Free Trial**                    | 30 days                                    | -                                          |
+| **Business Central Embedded**     | :material-check:                           | -                                          |
+| **Chat Functionality**            | :material-check:                           | -                                          |
+| **Microsoft Learn Integration**   | :material-check:                           | :material-check:                           |
+| **Community Knowledge Integration**| :material-check:                          | :material-check:                           |
+| **Private Knowledge Access**      | :material-check:                           | -                                          |
 | **Private Data Formats**          | PDF, Word, Text, Webpages                  | -                                          |
-| **Private Data Limit**            | 100 MB/month (apprx. 1000 pdf pages)          | -                                          |
-| **User Requests Limit**           | 500 requests/month      | 10 requests/month                          |
+| **Private Data Limit**            | 100 MB/month (apprx. 1000 pdf pages)       | -                                          |
+| **User Requests Limit**           | 500 requests/month                         | 10 requests/month                          |
 
 
 ## Trial Period Overview

@@ -12,7 +12,8 @@ After purchasing, assign licenses to users through the Microsoft 365 admin cente
 
 ### Extension Installation
 
-> **Note:** Ensure that licenses are assigned to users before installing CentralQ Chat in Business Central.
+!!! note
+    Ensure that licenses are assigned to users before installing CentralQ Chat in Business Central.
 
 1. **Navigate to Extensions**: Go to the Extensions page in Business Central.
 2. **Access Marketplace**: Select "Extension Marketplace" to open Microsoft AppSource.
