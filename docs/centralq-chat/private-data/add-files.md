@@ -33,8 +33,6 @@ CentralQ Chat allows users to upload files in `.pdf`, `.docx`, and `.txt` format
     !!! warning "Important"
         Altering the Chat ID affects file accessibility. Ensure you maintain the correct Chat ID to keep consistent access to your files.
 
-Here's the refined content for the "File Deletion and Replacement" section, structured for ease of understanding and clarity:
-
 ## File Deletion and Replacement
 
 CentralQ Chat provides straightforward options for deleting and replacing files within the system.
