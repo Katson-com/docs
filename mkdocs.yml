@@ -101,16 +101,18 @@ nav:
     - Configuration : centralq-chat/configuration.md
     - Knowledgebase: 
       - Private Data: 
-        - Files: centralq-chat/private-data/add-files.md
-        - Webpages: centralq-chat/private-data/add-webpages.md
-        - Statistics: centralq-chat/private-data/statistics.md
-      - Public Data: centralq-chat/public-data.md
-    - Chat: centralq-chat/chat.md
-    - Limitations: centralq-chat/limitations.md
-    - Architecture: centralq-chat/architecture.md
-    - Security: centralq-chat/security.md
-    - FAQ: centralq-chat/faq.md
-    - Release Notes: centralq-chat/release-notes.md
+        - Files: centralq-chat/knowledgebase/private-data/add-files.md
+        - Webpages: centralq-chat/knowledgebase/private-data/add-webpages.md
+        - Statistics: centralq-chat/knowledgebase/private-data/statistics.md
+      - Public Data: centralq-chat/knowledgebase/public-data.md
+    - Chat:
+      - Chat: centralq-chat/chat/chat.md
+      - Behinds the scenes: centralq-chat/chat/behinds-the-scenes.md
+    #   - Limitations: centralq-chat/chat/limitations.md
+    #   - Architecture: centralq-chat/chat/architecture.md
+    #   - Security: centralq-chat/chat/security.md
+    # - FAQ: centralq-chat/faq.md
+    # - Release Notes: centralq-chat/release-notes.md
 
 copyright: Copyright &copy; Katson.com 2023 All rights Reserved
 
