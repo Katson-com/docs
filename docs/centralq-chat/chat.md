@@ -11,11 +11,15 @@ CentralQ Chat is an AI-driven interactive guide for Microsoft Business Central, 
 ### Chat Interface
 
 - **Preparation Time**: Takes 2-5 seconds to prepare the chat environment upon opening or refreshing.
+
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/894521557?h=d40783db67&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Loading"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 - **Input Area**: Ask any question about Business Central. The AI utilizes various knowledge bases depending on your CentralQ Chat Setup configuration.
 - **Input Limitation**: Recommended to keep input within 100-150 words for optimal processing.
 - **Cited Sources**: Every answer includes citations from relevant sources such as files, web links, tweets, or YouTube videos.
 
-### Chat Session Flow
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/894527053?h=d7763ef406&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - User Input"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    ### Chat Session Flow
 
 1. **Starting a Session**: Each session focuses on a specific user intent, beginning with the user's initial question.
 2. **Rephrasing Queries**: The AI rephrases queries for clarity and search optimization, both for the initial and follow-up questions.
@@ -44,11 +48,15 @@ CentralQ Chat is an AI-driven interactive guide for Microsoft Business Central, 
 ### Follow up on topic
 
 - **Follow-up Questions**: Each session allows unlimited follow-up questions, but remember that AI might lose track of earlier parts of the conversation.
-- **Session Reset**: To switch topics, refresh the chat to start a new session.
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/894534909?h=cc3a3d1fc4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Follow up (Copy)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+- **Session Reset**: To switch topics, click on `Refresh` the chat to start a new session.
 
 ### Feedback and Improvement
 
-- **Providing Feedback**: Use the thumbs up/down feature and leave comments to help improve answer accuracy and the overall quality of CentralQ Chat.
+- **Providing Feedback**: Use the :fontawesome-regular-thumbs-up: :fontawesome-regular-thumbs-down: feature and leave comments to help improve answer accuracy and the overall quality of CentralQ Chat.
+
+    <div style="padding:53.89% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/894541807?h=cc3372dddc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Feedback"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### Limitations
 

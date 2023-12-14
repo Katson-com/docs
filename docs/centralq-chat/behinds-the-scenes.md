@@ -2,9 +2,9 @@ CentralQ Chat leverages advanced AI technology and a sophisticated ranking mecha
 
 ### The AI Model
 
-- **AI Model**: CentralQ Chat uses Azure OpenAI's GPT 3.5 Turbo, a state-of-the-art language model known for its ability to understand and generate human-like text.
+- **Model**: CentralQ Chat uses Azure OpenAI's GPT 3.5 Turbo, a state-of-the-art language model known for its ability to understand and generate human-like text.
 - **Context Length**: The model operates within a context window of 4096 tokens. This includes the user's input, system-generated prompts, retrieved information, chat history, and the AI's responses.
-- **Balanced Conversations**: To ensure coherent and relevant conversations, the AI balances the various elements within the context limit. This means the AI may gradually "forget" earlier parts of the conversation as the dialogue progresses.
+- **Balanced Context**: To ensure coherent and relevant conversations, the AI balances the various elements (user input, system prompt, retrieved knowledge, chat history) within the context limit. This means the AI may gradually "forget" earlier parts of the conversation as the dialogue progresses.
 
 ### Smart Rephrasing
 
