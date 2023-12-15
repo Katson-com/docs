@@ -16,5 +16,13 @@ CentralQ Chat, while being a powerful tool for instant information retrieval abo
 - **Context Window Constraint**: The AI operates with a context length of 4096 tokens, encompassing the input, system prompt, retrieved information, chat history, and the response. This limitation can impact the continuity and relevance of responses in prolonged interactions.
 - **Session-Based Interaction**: Each chat session is designed to address a specific topic or user intent. Switching topics mid-session may lead to less coherent responses.
 
+### File Handling Limitations
+
+- **File Format and Size Restrictions**: CentralQ Chat supports `.pdf`, `.docx`, and `.txt` files, with a maximum size limit of 3 MB per file.
+- **Private Data Limit**: Users can upload up to 100 MB of private data per month, approximately equivalent to 1000 PDF pages.
+- **User Requests Limit**: The system allows up to 500 user requests per month.
+- **Temporary File Access**: File links in answers are accessible for only 15 minutes for security purposes.
+- **Irreversible Deletion**: Deleted files and embeddings are permanently removed from cloud storage and the vector database.
+
 ### Links to Business Central pages
 - Currently, CentralQ Chat does not support links to Business Central pages. This feature will be added in a future releases.
