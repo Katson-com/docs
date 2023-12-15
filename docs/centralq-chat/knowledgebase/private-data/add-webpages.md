@@ -31,3 +31,6 @@ URLs can be deleted or replaced similarly to files. Be cautious, as deletions ar
 
 !!! warning "Important"
     Changes to URLs are permanent and cannot be undone. Exercise caution when deleting or replacing URLs.
+
+### Automatic Updates
+Automatic updates are currently not supported. To update a URL, you must delete and re-add it.

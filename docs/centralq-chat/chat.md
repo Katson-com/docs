@@ -1,5 +1,7 @@
 CentralQ Chat is an AI-driven interactive guide for Microsoft Business Central, designed to provide instant answers about Business Central Environment sourced from Private Documents, Microsoft Learn, and Community Knowledge.
 
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/894527053?h=d7763ef406&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - User Input"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 ### User Workflow
 
 1. **Open CentralQ Chat**: Launch CentralQ Chat.
@@ -18,8 +20,7 @@ CentralQ Chat is an AI-driven interactive guide for Microsoft Business Central, 
 - **Input Limitation**: Recommended to keep input within 100-150 words for optimal processing.
 - **Cited Sources**: Every answer includes citations from relevant sources such as files, web links, tweets, or YouTube videos.
 
-    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/894527053?h=d7763ef406&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - User Input"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-    ### Chat Session Flow
+### Chat Session Flow
 
 1. **Starting a Session**: Each session focuses on a specific user intent, beginning with the user's initial question.
 2. **Rephrasing Queries**: The AI rephrases queries for clarity and search optimization, both for the initial and follow-up questions.
