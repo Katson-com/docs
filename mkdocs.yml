@@ -94,7 +94,9 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
+  - Home: index.md
   - CentralQ Chat:
+    - CentralQ Chat Home: centralq-chat/index.md
     - Getting Started: centralq-chat/getting-started.md
     - Pricing : centralq-chat/pricing.md
     - Installation : centralq-chat/installation.md
