@@ -5,8 +5,8 @@ CentralQ Chat prioritizes the security and privacy of user data, especially when
 1. **Private Azure Blob Storage**: Files uploaded by users are securely stored in private Azure Blob Storage. Access to these files is strictly controlled and requires a key, ensuring no public or unauthorized access.
 
 2. **File Download**: Users can download files through two secure methods:
-   - Via the Private Data page on CentralQ Chat.
-   - Through temporary links provided in chat responses, valid for only 15 minutes to prevent unauthorized sharing.
+      - Via the Private Data page on CentralQ Chat.
+      - Through temporary links provided in chat responses, valid for only 15 minutes to prevent unauthorized sharing.
 
 ### Data Privacy and Usage
 
