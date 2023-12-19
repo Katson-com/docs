@@ -112,6 +112,7 @@ nav:
     - Limitations: centralq-chat/limitations.md
     - Architecture: centralq-chat/architecture.md
     - Security: centralq-chat/security.md
+    - Telemetry: centralq-chat/telemetry.md
     - FAQ: centralq-chat/faq.md
     - Release Notes: centralq-chat/release-notes.md
 
