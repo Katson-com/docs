@@ -56,6 +56,10 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | AL0050UUS    | Url Upload            | [Url upload started](#AL0050UUS)                         |
 | AL0051UUP    | Url Upload            | [Url passed validation](#AL0051UUP)                      |
 | AL0052UUC    | Url Upload            | [Url upload completed](#AL0052UUC)                       |
+| AL0053FDD    | File Download         | [File download initiated](#AL0053FDD)                    |
+| AL0054FDS    | File Download         | [File download started](#AL0054FDS)                      |
+| AL0055FDP    | File Download         | [File download started](#AL0055FDP)                      |
+| AL0056FDC    | File Download         | [File download completed](#AL0056FDC)                    |
 
 ## Details of Telemetry Events
 
@@ -220,6 +224,20 @@ This event is triggered when a user passes url validation.
 
 ### <a id="AL0052UUC"></a>AL0052UUC - Url Upload Completed
 This event is triggered when a user completes a url upload.
+
+### <a id="AL0053FDD"></a>AL0053FDD - File Download Initiated
+This event is triggered when a user initiates a file download.
+
+### <a id="AL0054FDS"></a>AL0054FDS - File Download Started
+This event is triggered when a user starts a file download.
+
+### <a id="AL0055FDP"></a>AL0055FDP - File Download Started
+This event is triggered when a user passes file download validation.
+
+### <a id="AL0056FDC"></a>AL0056FDC - File Download Completed
+This event is triggered when a user completes a file download.
+
+
 
 
 ## Telemetry Data Compliance
