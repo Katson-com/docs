@@ -65,6 +65,7 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | AL0059FUX    | File Upload           | [File deletion failed](#AL0059FUX)                       |
 | AL0060UUX    | Url Upload            | [Url deletion failed](#AL0060UUX)                        |
 | AL0061STO    | Statistics            | [Statistics opened](#AL0061STO)                          |
+| AL0062FUE    | File Upload           | [Uploaded file extension value](#AL0062FUE)              |
 
 ## Details of Telemetry Events
 
@@ -256,6 +257,9 @@ This event is triggered when a user fails to delete a url.
 
 ### <a id="AL0061STO"></a>AL0061STO - Statistics Opened
 This event is triggered when a user opens the statistics page.
+
+### <a id="AL0062FUE"></a>AL0062FUE - Uploaded File Extension Value
+This event is triggered when a user uploads a file, and shows the name of the extension, allowing to collect data about file extensions.
 
 
 
