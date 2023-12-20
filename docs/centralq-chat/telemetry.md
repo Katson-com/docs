@@ -13,7 +13,49 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | AL0007CCR    | Cloud Connection      | [Registered successfully](#AL0007CCR)                    |
 | AL0008CCE    | Cloud Connection      | [Registration failed](#AL0008CCE)                        |
 | AL0009CCE    | Cloud Connection      | [Acquire authentication token failed](#AL0009CCE)        |
-
+| AL0010CCU    | Cloud Connection      | [Used Connection to CentralQ Cloud](#AL0010CCU)          |
+| AL0011CT0    | Chat Session          | [Chat opened](#AL0011CT0)                                |
+| AL0012CCC    | Cloud Connection      | [Connect CentralQ Cloud opened from Chat](#AL0012CCC)    |
+| AL0013CCS    | Cloud Connection      | [Connect CentralQ Cloud opened from Setup](#AL0013CCS)   |
+| AL0014CTL    | Chat Session          | [Microsoft Learn used](#AL0014CTL)                       |
+| AL0015CTC    | Chat Session          | [Community Knowledge used](#AL0015CTC)                   |
+| AL0016CTP    | Chat Session          | [Private Knowledge used](#AL0016CTP)                     |
+| AL0017MLD    | Microsoft Learn       | [Microsoft Learn setup discovered](#AL0017MLD)           |
+| AL0018MLC    | Microsoft Learn       | [Microsoft Learn setup changed](#AL0018MLC)              |
+| AL0019MLE    | Microsoft Learn       | [Microsoft Learn enabled](#AL0019MLE)                    |
+| AL0020MLD    | Microsoft Learn       | [Microsoft Learn disabled](#AL0020MLD)                   |
+| AL0021MLU    | Microsoft Learn       | [Microsoft Learn used](#AL0021MLU)                       |
+| AL0022CKD    | Community Knowledge   | [Community Knowledge setup discovered](#AL0022CKD)       |
+| AL0023CKC    | Community Knowledge   | [Community Knowledge setup changed](#AL0023CKC)          |
+| AL0024CKE    | Community Knowledge   | [Community Knowledge enabled](#AL0024CKE)                |
+| AL0025CKD    | Community Knowledge   | [Community Knowledge disabled](#AL0025CKD)               |
+| AL0026CKU    | Community Knowledge   | [Community Knowledge used](#AL0026CKU)                   |
+| AL0027PKD    | Private Knowledge     | [Private Knowledge setup discovered](#AL0027PKD)         |
+| AL0028PKC    | Private Knowledge     | [Private Knowledge setup changed](#AL0028PKC)            |
+| AL0029PKE    | Private Knowledge     | [Private Knowledge enabled](#AL0029PKE)                  |
+| AL0030PKD    | Private Knowledge     | [Private Knowledge disabled](#AL0030PKD)                 |
+| AL0031PKU    | Private Knowledge     | [Private Knowledge used](#AL0031PKU)                     |
+| AL0032PKO    | Private Knowledge     | [Private Knowledge opened](#AL0032PKO)                   |
+| AL0033FUD    | File Upload           | [File upload initiated](#AL0033FUD)                      |
+| AL0034FUS    | File Upload           | [File upload started ](#AL0034FUS)                       | 
+| AL0035FUP    | File Upload           | [File passed validation](#AL0035FUP)                     |
+| AL0036FUC    | File Upload           | [File upload completed](#AL0036FUC)                      |  
+| AL0037FUX    | File Upload           | [File validation failed](#AL0037FUX)                     | 
+| AL0038FUE    | File Upload           | [File extension is supported](#AL0038FUE)                |  
+| AL0039FUX    | File Upload           | [File extension is not supported](#AL0039FUX)            | 
+| AL0040FUX    | File Upload           | [Not supported file extension value](#AL0040FUX)         |    
+| AL0041FUZ    | File Upload           | [File size](#AL0041FUZ)                                  |     
+| AL0042FUX    | File Upload           | [File size is too large](#AL0042FUX)                     |  
+| AL0043FUV    | File Upload           | [New file version upload initiated](#AL0043FUV)          | 
+| AL0044FUV    | File Upload           | [New file version uploaded](#AL0044FUV)                  |
+| AL0045FUE    | File Upload           | [File content embedding initiated](#AL0045FUE)           |
+| AL0046FUX    | File Upload           | [File content embedding failed](#AL0046FUX)              |
+| AL0047UUE    | Url Upload            | [Url Content Embedding Initiated](#AL0047UUE)            |
+| AL0048UUX    | Url Upload            | [Url Content Embedding Failed](#AL0048UUX)               |
+| AL0049UUD    | Url Upload            | [Url upload initiated](#AL0049UUD)                       |
+| AL0050UUS    | Url Upload            | [Url upload started](#AL0050UUS)                         |
+| AL0051UUP    | Url Upload            | [Url passed validation](#AL0051UUP)                      |
+| AL0052UUC    | Url Upload            | [Url upload completed](#AL0052UUC)                       |
 
 ## Details of Telemetry Events
 
@@ -52,6 +94,133 @@ This event is triggered when a user fails to register new CentralQ Cloud account
 
 ### <a id="AL0009CCE"></a>AL0009CCE - Acquire Authentication Token Failed
 This event is triggered when a user fails to acquire authentication token from CentralQ Cloud.
+
+### <a id="AL0010CCU"></a>AL0010CCU - Used Connection to CentralQ Cloud
+This event is triggered when a user uses an existing connection to CentralQ Cloud.
+
+### <a id="AL0011CT0"></a>AL0011CT0 - Chat Opened
+This event is triggered when a user opens a new chat session, allowing us to understand user engagement.
+
+### <a id="AL0012CCC"></a>AL0012CCC - Connect CentralQ Cloud Opened from Chat
+This event is triggered when Connect CentralQ Cloud automatically opened the from the chat, allowing us to understand user engagement.
+
+### <a id="AL0013CCS"></a>AL0013CCS - Connect CentralQ Cloud Opened from Setup
+This event is triggered when Connect CentralQ Cloud manually opened the from the setup, allowing us to understand user engagement.
+
+### <a id="AL0014CTL"></a>AL0014CTL - Microsoft Learn Used
+This event is triggered when Microsoft Learn option is active during chat session.
+
+### <a id="AL0015CTC"></a>AL0015CTC - Community Knowledge Used
+This event is triggered when Community Knowledge option is active during chat session.
+
+### <a id="AL0016CTP"></a>AL0016CTP - Private Knowledge Used
+This event is triggered when Private Knowledge option is active during chat session.
+
+### <a id="AL0017MLD"></a>AL0017MLD - Microsoft Learn Setup Discovered
+This event is triggered when Microsoft Learn setup is discovered.
+
+### <a id="AL0018MLC"></a>AL0018MLC - Microsoft Learn Setup Changed
+This event is triggered when Microsoft Learn setup is changed.
+
+### <a id="AL0019MLE"></a>AL0019MLE - Microsoft Learn Enabled
+This event is triggered when Microsoft Learn is enabled.
+
+### <a id="AL0020MLD"></a>AL0020MLD - Microsoft Learn Disabled
+This event is triggered when Microsoft Learn is disabled.
+
+### <a id="AL0021MLU"></a>AL0021MLU - Microsoft Learn Used
+This event is triggered when Microsoft Learn is used.
+
+### <a id="AL0022CKD"></a>AL0022CKD - Community Knowledge Setup Discovered
+This event is triggered when Community Knowledge setup is discovered.
+
+### <a id="AL0023CKC"></a>AL0023CKC - Community Knowledge Setup Changed
+This event is triggered when Community Knowledge setup is changed.
+
+### <a id="AL0024CKE"></a>AL0024CKE - Community Knowledge Enabled
+This event is triggered when Community Knowledge is enabled.
+
+### <a id="AL0025CKD"></a>AL0025CKD - Community Knowledge Disabled
+This event is triggered when Community Knowledge is disabled.
+
+### <a id="AL0026CKU"></a>AL0026CKU - Community Knowledge Used
+This event is triggered when Community Knowledge is used.
+
+### <a id="AL0027PKD"></a>AL0027PKD - Private Knowledge Setup Discovered
+This event is triggered when Private Knowledge setup is discovered.
+
+### <a id="AL0028PKC"></a>AL0028PKC - Private Knowledge Setup Changed
+This event is triggered when Private Knowledge setup is changed.
+
+### <a id="AL0029PKE"></a>AL0029PKE - Private Knowledge Enabled
+This event is triggered when Private Knowledge is enabled.
+
+### <a id="AL0030PKD"></a>AL0030PKD - Private Knowledge Disabled
+This event is triggered when Private Knowledge is disabled.
+
+### <a id="AL0031PKU"></a>AL0031PKU - Private Knowledge Used
+This event is triggered when Private Knowledge is used.
+
+### <a id="AL0032PKO"></a>AL0032PKO - Private Knowledge Opened
+This event is triggered when Private Knowledge is opened.
+
+### <a id="AL0033FUD"></a>AL0033FUD - File Upload Initiated
+This event is triggered when a user initiates a file upload, allowing us to understand user engagement.
+
+### <a id="AL0034FUS"></a>AL0034FUS - File Upload Started
+This event is triggered when a user starts a file upload, allowing us to understand user engagement.
+
+### <a id="AL0036FUC"></a>AL0036FUC - File Upload Completed
+This event is triggered when a user completes a file upload, allowing us to understand user engagement.
+
+### <a id="AL0037FUX"></a>AL0037FUX - File Validation Failed
+This event is triggered when a user fails to validate a file, allowing us to understand user engagement.
+
+### <a id="AL0038FUE"></a>AL0038FUE - File Extension is Supported
+This event is triggered when a user uploads a file with a supported extension, allowing us to understand user engagement.
+
+### <a id="AL0039FUX"></a>AL0039FUX - File Extension is Not Supported
+This event is triggered when a user uploads a file with an unsupported extension, allowing us to understand user engagement.
+
+### <a id="AL0040FUX"></a>AL0040FUX - Not Supported File Extension Value
+This event is triggered when a user uploads a file with an unsupported extension value, and shows the name of the extension, allowing to collect data about unsupported extensions.
+
+### <a id="AL0041FUZ"></a>AL0041FUZ - File Size
+This event is triggered when a user uploads a file, and shows the size of the file, allowing to collect data about file sizes.
+
+### <a id="AL0042FUX"></a>AL0042FUX - File Size is Too Large
+This event is triggered when a user uploads a file that is too large, and shows the size of the file, allowing to collect data about file sizes.
+
+### <a id="AL0043FUV"></a>AL0043FUV - New File Version Upload Initiated
+This event is triggered when a user initiates a new file version upload, allowing us to understand user engagement.
+
+### <a id="AL0044FUV"></a>AL0044FUV - New File Version Uploaded
+This event is triggered when a user uploaded a new file version, allowing us to understand user engagement.
+
+### <a id="AL0045FUE"></a>AL0045FUE - File Content Embedding Initiated
+This event is triggered when a user initiates a file content embedding.
+
+### <a id="AL0046FUX"></a>AL0046FUX - File Content Embedding Failed
+This event is triggered when a user fails to embed file content.
+
+### <a id="AL0047UUE"></a>AL0047UUE - Url Content Embedding Initiated
+This event is triggered when a user initiates a url content embedding.
+
+### <a id="AL0048UUX"></a>AL0048UUX - Url Content Embedding Failed
+This event is triggered when a user fails to embed url content.
+
+### <a id="AL0049UUD"></a>AL0049UUD - Url Upload Initiated
+This event is triggered when a user initiates a url upload.
+
+### <a id="AL0050UUS"></a>AL0050UUS - Url Upload Started
+This event is triggered when a user starts a url upload.
+
+### <a id="AL0051UUP"></a>AL0051UUP - Url Passed Validation
+This event is triggered when a user passes url validation.
+
+### <a id="AL0052UUC"></a>AL0052UUC - Url Upload Completed
+This event is triggered when a user completes a url upload.
+
 
 ## Telemetry Data Compliance
 All telemetry data is collected in compliance with privacy laws and regulations. Users are informed of the data collection and can opt-out if desired.
