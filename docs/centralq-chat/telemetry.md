@@ -60,6 +60,10 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | AL0054FDS    | File Download         | [File download started](#AL0054FDS)                      |
 | AL0055FDP    | File Download         | [File download started](#AL0055FDP)                      |
 | AL0056FDC    | File Download         | [File download completed](#AL0056FDC)                    |
+| AL0057UUD    | Url Upload            | [Url deleted](#AL0057UUD)                                |
+| AL0058FUD    | File Upload           | [File deleted](#AL0058FUD)                               |
+| AL0059FUX    | File Upload           | [File deletion failed](#AL0059FUX)                       |
+| AL0060UUX    | Url Upload            | [Url deletion failed](#AL0060UUX)                        |
 
 ## Details of Telemetry Events
 
@@ -237,6 +241,14 @@ This event is triggered when a user passes file download validation.
 ### <a id="AL0056FDC"></a>AL0056FDC - File Download Completed
 This event is triggered when a user completes a file download.
 
+### <a id="AL0057UUD"></a>AL0057UUD - Url Deleted
+This event is triggered when a user deletes a url.
+
+### <a id="AL0058FUD"></a>AL0058FUD - File Deleted
+This event is triggered when a user deletes a file.
+
+### <a id="AL0059FUX"></a>AL0059FUX - File Deletion Failed
+This event is triggered when a user fails to delete a file.
 
 
 
