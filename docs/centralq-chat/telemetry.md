@@ -68,8 +68,11 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | AL0062FUE    | File Upload           | [Uploaded file extension value](#AL0062FUE)              |
 | AL0063UUV    | Url Upload            | [New url version upload initiated](#AL0063UUV)           |
 | AL0064UUV    | Url Upload            | [New url version uploaded](#AL0064UUV)                   |
+| PY0065CHS    | Chat Session          | [Chat session started](#PY0065CHS)                       |
+| PY0066CHQ    | Chat Question         | [New question asked](#PY0066CHQ)                         |
+| PY0067CHQ    | Chat Question         | [Follow-up Question Asked](#PY0067CHQ)                   |
 
-## Details of Telemetry Events
+## Business Central Telemetry Events
 
 <!-- ### <a id="AL0001CHS"></a>AL0001CHS - Chat Session Started
 This event is triggered when a user begins a new chat session, allowing us to understand user engagement.
@@ -268,6 +271,18 @@ This event is triggered when a user initiates a new url version upload, allowing
 
 ### <a id="AL0064UUV"></a>AL0064UUV - New Url Version Uploaded
 This event is triggered when a user uploaded a new url version, allowing us to understand user engagement.
+
+## WebApp Telemetry Events
+
+### <a id="PY0065CHS"></a>PY0065CHS - Chat Session Started
+This event is triggered when a user starts a new chat session, allowing us to understand user engagement.
+
+### <a id="PY0066CHQ"></a>PY0066CHQ - New Question Asked
+This event is triggered when a user asks a new question, allowing us to understand user engagement. Question text is included in the event.
+
+### <a id="PY0067CHQ"></a>PY0067CHQ - Follow-up Question Asked
+This event is triggered when a user asks a follow-up question, allowing us to understand user engagement. Question text is included in the event, as well as the conversation history.
+
 
 
 
