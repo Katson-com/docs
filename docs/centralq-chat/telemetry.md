@@ -72,6 +72,11 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | PY0066CHQ    | Chat Question         | [New question asked](#PY0066CHQ)                         |
 | PY0067CHQ    | Chat Question         | [Follow-up Question Asked](#PY0067CHQ)                   |
 | PY0068CHA    | Chat Answer           | [Answer generated](#PY0068CHA)                           |
+| PY0069CHL    | Chat Session          | [Maximum monthly requests limit reached](#PY0069CHL)     |
+| PY0070CHR    | Chat Question         | [Question rephrased](#PY0070CHR)                         |
+| PY0071CHP    | Chat Answer           | [Private Knowledge Found](#PY0071CHP)                    |
+| PY0072CHM    | Chat Session          | [Microsoft Learn Found](#PY0072CHM)                      |
+| PY0073CHC    | Chat Session          | [Community Knowledge Found](#PY0073CHC)                  |
 
 ## Business Central Telemetry Events
 
@@ -285,11 +290,22 @@ This event is triggered when a user asks a new question, allowing us to understa
 This event is triggered when a user asks a follow-up question, allowing us to understand user engagement. Question text is included in the event, as well as the conversation history.
 
 ### <a id="PY0068CHA"></a>PY0068CHA - Answer Generated
-This event is triggered when a user receives an answer, allowing us to understand user engagement. Answer text is included in the event, as well as the conversation history.
+This event is triggered when a user receives an answer, allowing us to understand user engagement. Answer text is included in the event, as well as the conversation history and sources used to generate the answer (with text and metadata).
 
+### <a id="PY0069CHL"></a>PY0069CHL - Maximum Monthly Requests Limit Reached
+This event is triggered when a user reaches the maximum monthly requests limit
 
+### <a id="PY0070CHR"></a>PY0070CHR - Question Rephrased
+This event is triggered when question is automatically rephrased by the AI. Original question text is included in the event.
 
+### <a id="PY0071CHP"></a>PY0071CHP - Private Knowledge Found
+This event is triggered when Private Knowledge is found for the question. Question text is included in the event, as well as private knowledge metadata.
 
+### <a id="PY0072CHM"></a>PY0072CHM - Microsoft Learn Found
+This event is triggered when Microsoft Learn is found for the question. Question text is included in the event, as well as Microsoft Learn metadata.
+
+### <a id="PY0073CHC"></a>PY0073CHC - Community Knowledge Found
+This event is triggered when Community Knowledge is found for the question. Question text is included in the event, as well as Community Knowledge metadata.
 
 
 ## Telemetry Data Compliance
