@@ -71,6 +71,7 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | PY0065CHS    | Chat Session          | [Chat session started](#PY0065CHS)                       |
 | PY0066CHQ    | Chat Question         | [New question asked](#PY0066CHQ)                         |
 | PY0067CHQ    | Chat Question         | [Follow-up Question Asked](#PY0067CHQ)                   |
+| PY0068CHA    | Chat Answer           | [Answer generated](#PY0068CHA)                           |
 
 ## Business Central Telemetry Events
 
@@ -282,6 +283,9 @@ This event is triggered when a user asks a new question, allowing us to understa
 
 ### <a id="PY0067CHQ"></a>PY0067CHQ - Follow-up Question Asked
 This event is triggered when a user asks a follow-up question, allowing us to understand user engagement. Question text is included in the event, as well as the conversation history.
+
+### <a id="PY0068CHA"></a>PY0068CHA - Answer Generated
+This event is triggered when a user receives an answer, allowing us to understand user engagement. Answer text is included in the event, as well as the conversation history.
 
 
 
