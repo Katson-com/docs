@@ -52,6 +52,9 @@ Below are some commonly asked questions about CentralQ Chat and their answers, b
 2. **What localizations does CentralQ Chat support?**
    CentralQ Chat is available in all countries where Dynamics 365 Business Central is available. The user interface is available in English (United States), but the app can be used in any language.
 
+3. **What editions of Business Central does CentralQ Chat support?**
+   CentralQ Chat supports both Essential and Premium editions of Microsoft Dynamics 365 Business Central.
+
 ### Support
 
 1. **Where can I get help if I encounter issues with CentralQ Chat?**
