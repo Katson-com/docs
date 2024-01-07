@@ -39,6 +39,9 @@ Below are some commonly asked questions about CentralQ Chat and their answers, b
 6. **Can CentralQ Chat answer queries about installed AppSource apps?**
    Yes, but only if you manually upload the app documentation to your private documents. We understand that this is not ideal and are working with Publishers to make their documentation available to CentralQ Chat.
 
+7. **I don't see the links to my Business Central pages in the answers. Why?**
+   This feature will be available in the next releases of CentralQ Chat. This requires an additional knowledge of currently available pages (standard and custom) that is not available yet. We are working on this feature and will release it as soon as possible.
+
 ### Security and Data Privacy
 
 1. **How secure is my private data in CentralQ Chat?**
