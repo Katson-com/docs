@@ -36,6 +36,9 @@ Below are some commonly asked questions about CentralQ Chat and their answers, b
 5. **What languages does CentralQ Chat support?**
    While CentralQ Chat is primarily available in English (United States), it is designed to handle private knowledge and chat interactions in various languages. This flexibility allows users worldwide to utilize the app in their preferred language. However, please note that CentralQ Chat has been extensively tested and optimized for English, ensuring the best performance and accuracy in this language. 
 
+6. **Can CentralQ Chat answer queries about installed AppSource apps?**
+   Yes, but only if you manually upload the app documentation to your private documents. We understand that this is not ideal and are working with Publishers to make their documentation available to CentralQ Chat.
+
 ### Security and Data Privacy
 
 1. **How secure is my private data in CentralQ Chat?**
