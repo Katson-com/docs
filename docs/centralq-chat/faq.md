@@ -34,7 +34,7 @@ Below are some commonly asked questions about CentralQ Chat and their answers, b
    No, CentralQ Chat don't have access to your Business Central data and cannot answer queries about it.
 
 5. **What languages does CentralQ Chat support?**
-   CentralQ Chat is optimized for English, but it can also answer queries in other languages. However, the accuracy of responses may vary. 
+   While CentralQ Chat is primarily available in English (United States), it is designed to handle private knowledge and chat interactions in various languages. This flexibility allows users worldwide to utilize the app in their preferred language. However, please note that CentralQ Chat has been extensively tested and optimized for English, ensuring the best performance and accuracy in this language. 
 
 ### Security and Data Privacy
 
@@ -50,7 +50,7 @@ Below are some commonly asked questions about CentralQ Chat and their answers, b
    CentralQ Chat is designed to be compatible with Business Central versions started from v23. It's recommended to check specific version compatibility on Microsoft AppSource.
 
 2. **What localizations does CentralQ Chat support?**
-   CentralQ Chat currently supports US, UK, and Canada localizations. More localizations will be added in the future.
+   CentralQ Chat is available in all countries where Dynamics 365 Business Central is available. The user interface is available in English (United States), but the app can be used in any language.
 
 ### Support
 
