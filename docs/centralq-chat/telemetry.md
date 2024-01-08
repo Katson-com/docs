@@ -68,6 +68,7 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | AL0062FUE    | File Upload           | [Uploaded file extension value](#AL0062FUE)              |
 | AL0063UUV    | Url Upload            | [New url version upload initiated](#AL0063UUV)           |
 | AL0064UUV    | Url Upload            | [New url version uploaded](#AL0064UUV)                   |
+| AL0065PKF    | Private Knowledge     | [No permission to manage private data](#AL0065PKF)       |
 | PY0065CHS    | Chat Session          | [Chat session started](#PY0065CHS)                       |
 | PY0066CHQ    | Chat Question         | [New question asked](#PY0066CHQ)                         |
 | PY0067CHQ    | Chat Question         | [Follow-up Question Asked](#PY0067CHQ)                   |
@@ -277,6 +278,9 @@ This event is triggered when a user initiates a new url version upload, allowing
 
 ### <a id="AL0064UUV"></a>AL0064UUV - New Url Version Uploaded
 This event is triggered when a user uploaded a new url version, allowing us to understand user engagement.
+
+### <a id="AL0065PKF"></a>AL0065PKF - No Permission to Manage Private Data
+This event is triggered when a user tries to manage private data without permission.
 
 ## WebApp Telemetry Events
 
