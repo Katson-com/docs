@@ -78,6 +78,8 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | PY0071CHP    | Chat Answer           | [Private Knowledge Found](#PY0071CHP)                    |
 | PY0072CHM    | Chat Session          | [Microsoft Learn Found](#PY0072CHM)                      |
 | PY0073CHC    | Chat Session          | [Community Knowledge Found](#PY0073CHC)                  |
+| PY0074CHF    | Chat Answer           | [Positive Feedback](#PY0074CHF)                          |
+| PY0075CHF    | Chat Answer           | [Negative Feedback](#PY0075CHF)                          |
 
 ## Business Central Telemetry Events
 
@@ -310,6 +312,12 @@ This event is triggered when Microsoft Learn is found for the question. Question
 
 ### <a id="PY0073CHC"></a>PY0073CHC - Community Knowledge Found
 This event is triggered when Community Knowledge is found for the question. Question text is included in the event, as well as Community Knowledge metadata.
+
+### <a id="PY0074CHF"></a>PY0074CHF - Positive Feedback
+This event is triggered when a user submits positive feedback for the answer. Answer text is included in the event, as well as the conversation history and sources used to generate the answer (with text and metadata).
+
+### <a id="PY0075CHF"></a>PY0075CHF - Negative Feedback
+This event is triggered when a user submits negative feedback for the answer. Answer text is included in the event, as well as the conversation history and sources used to generate the answer (with text and metadata).
 
 
 ## Telemetry Data Compliance
