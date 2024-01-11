@@ -80,6 +80,12 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | PY0073CHC    | Chat Session          | [Community Knowledge Found](#PY0073CHC)                  |
 | PY0074CHF    | Chat Answer           | [Positive Feedback](#PY0074CHF)                          |
 | PY0075CHF    | Chat Answer           | [Negative Feedback](#PY0075CHF)                          |
+| PY0076CCE    | Chat Session          | [Invalid Access Token](#PY0076CCE)                       |
+| PY0077CCE    | Chat Session          | [Access Token is missing](#PY0077CCE)                    |
+| PY0078CCE    | Chat Session          | [Chat Id is missing](#PY0078CCE)                         |
+| PY0079CCE    | Chat Session          | [Secret Key is missing](#PY0079CCE)                      |
+| PY0080CCE    | Chat Session          | [Authentication failed](#PY0080CCE)                      |
+| PY0081CCS    | Chat Session          | [Authenticated successfully](#PY0081CCS)                 |
 
 ## Business Central Telemetry Events
 
@@ -318,6 +324,24 @@ This event is triggered when a user submits positive feedback for the answer. An
 
 ### <a id="PY0075CHF"></a>PY0075CHF - Negative Feedback
 This event is triggered when a user submits negative feedback for the answer. Answer text is included in the event, as well as the conversation history and sources used to generate the answer (with text and metadata).
+
+### <a id="PY0076CCE"></a>PY0076CCE - Invalid Access Token
+This event is triggered when a user fails to authenticate to CentralQ Cloud, due to Access token is not valid.
+
+### <a id="PY0077CCE"></a>PY0077CCE - Access Token is Missing
+This event is triggered when a user fails to authenticate to CentralQ Cloud, due to Access token is missing.
+
+### <a id="PY0078CCE"></a>PY0078CCE - Chat Id is Missing
+This event is triggered when a user fails to authenticate to CentralQ Cloud, due to Chat Id is missing.
+
+### <a id="PY0079CCE"></a>PY0079CCE - Secret Key is Missing
+This event is triggered when a user fails to authenticate to CentralQ Cloud, due to Secret Key is missing.
+
+### <a id="PY0080CCE"></a>PY0080CCE - Authentication Failed
+This event is triggered when a user fails to authenticate to CentralQ Cloud.
+
+### <a id="PY0081CCS"></a>PY0081CCS - Authenticated Successfully
+This event is triggered when a user successfully authenticates to CentralQ Cloud.
 
 
 ## Telemetry Data Compliance
