@@ -86,6 +86,7 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | PY0079CCE    | Chat Session          | [Secret Key is missing](#PY0079CCE)                      |
 | PY0080CCE    | Chat Session          | [Authentication failed](#PY0080CCE)                      |
 | PY0081CCS    | Chat Session          | [Authenticated successfully](#PY0081CCS)                 |
+| PY0082CHR    | Chat Question         | [Related Queries Generated](#PY0082CHR)                  |
 
 ## Business Central Telemetry Events
 
@@ -342,6 +343,9 @@ This event is triggered when a user fails to authenticate to CentralQ Cloud.
 
 ### <a id="PY0081CCS"></a>PY0081CCS - Authenticated Successfully
 This event is triggered when a user successfully authenticates to CentralQ Cloud.
+
+### <a id="PY0082CHR"></a>PY0082CHR - Related Queries Generated
+This event is triggered when related queries are generated for the question. Question text is included in the event, as well as related queries.
 
 
 ## Telemetry Data Compliance
