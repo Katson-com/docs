@@ -90,16 +90,16 @@ CentralQ Chat offers a straightforward and value-driven pricing model tailored t
 
 ### CentralQ Chat Pro
 
-- **Monthly Subscription**: CentralQ Chat Pro is priced at $29 per user per month, making it an affordable addition to any Business Central environment.
+- **Monthly Subscription**: CentralQ Chat is priced at $29 per user per month, making it an affordable addition to any Business Central environment.
 - **Annual Subscription**: For those seeking a longer commitment, an annual subscription is available at $299 per user per year, offering almost 2 months of free usage per year.
-- **Inclusive Features**: The Pro plan includes full access to all features of CentralQ Chat, including AI-driven assistance, integration with Microsoft Learn, Community Knowledge access, and the ability to upload and use private documents. This comprehensive access ensures users have all the tools they need for an enhanced Business Central experience.
+- **Inclusive Features**: The paid plan includes full access to all features of CentralQ Chat, including AI-driven assistance, integration with Microsoft Learn, Community Knowledge access, and the ability to upload and use private documents. This comprehensive access ensures users have all the tools they need for an enhanced Business Central experience.
 - **Private Data Limits**: Users can upload up to 100 MB of private documents monthly, equivalent to approximately 1000 pdf pages, providing ample capacity for most businesses' needs.
-- **Request Limits**: Each user under the Pro plan can make up to 500 requests per month, ensuring frequent and consistent access to the AI-driven insights.
+- **Request Limits**: Each user under the paid plan can make up to 500 requests per month, ensuring frequent and consistent access to the AI-driven insights.
 
 ### Free Trial Period
 
-- **Duration**: CentralQ Chat Pro offers a 30-day free trial, allowing potential users to experience the full range of features and benefits without any upfront commitment.
-- **Trial Limitations**: During the trial period, users have access to all the features of the Pro plan but with slightly reduced limits. The private data limit is 30 MB, and the user request limit is 100 for the trial month.
+- **Duration**: CentralQ Chat offers a 30-day free trial, allowing potential users to experience the full range of features and benefits without any upfront commitment.
+- **Trial Limitations**: During the trial period, users have access to all the features of the paid plan but with slightly reduced limits. The private data limit is 30 MB, and the user request limit is 100 for the trial month.
 
 ## Security and Privacy
 

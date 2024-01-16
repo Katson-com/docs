@@ -14,10 +14,10 @@ Below are some commonly asked questions about CentralQ Chat and their answers, b
 ### Pricing and Plans
 
 1. **What are the pricing plans for CentralQ Chat?**
-   There are two tiers: CentralQ Chat Pro ($29/month per user or $299/year per user) and CentralQ.ai Free (10 free requests/month). The Pro tier offers a 30-day free trial with limited features.
+   There are two tiers: CentralQ Chat ($29/month per user or $299/year per user) and CentralQ.ai Free (10 free requests/month). The paid tier offers a 30-day free trial with limited features.
 
 2. **Are there any trial periods available?**
-   Yes, the CentralQ Chat Pro tier offers a 30-day free trial with full functionality, but lower request limits compared to the full Pro plan.
+   Yes, the CentralQ Chat tier offers a 30-day free trial with full functionality, but lower request limits compared to the paid plan.
 
 ### Functionality
 
@@ -25,7 +25,7 @@ Below are some commonly asked questions about CentralQ Chat and their answers, b
    Yes, if you upload your private documents (PDF, Word, Text), CentralQ Chat can use them to answer your queries.
 
 2. **Is there a limit to the number of queries I can ask?**
-   Yes, the Pro tier allows up to 500 queries per month, while the Free centralq.ai permits up to 10 queries per month.
+   Yes, the paid tier allows up to 500 queries per month, while the Free centralq.ai permits up to 10 queries per month.
 
 3. **Can I use CentralQ Chat to run functions in Business Central?**
    No, CentralQ Chat is designed to provide information and cannot execute functions within Business Central.

@@ -1,8 +1,8 @@
-CentralQ offers two distinct tiers tailored to meet diverse user needs – the feature-rich CentralQ Chat Pro and the accessible <a href="http://www.centralq.ai" target="_blank">CentralQ.ai</a>.
+CentralQ offers two distinct tiers tailored to meet diverse user needs – the feature-rich CentralQ Chat and the accessible <a href="http://www.centralq.ai" target="_blank">CentralQ.ai</a>.
 
-### CentralQ Chat Pro
+### CentralQ Chat
 
-Unlock the full potential of CentralQ Chat with our Pro version. Designed for those who seek a comprehensive, integrated experience with Business Central.
+Unlock the full potential of CentralQ Chat with our paid version. Designed for those who seek a comprehensive, integrated experience with Business Central.
 
 ### CentralQ.ai
 
@@ -10,9 +10,9 @@ Explore <a href="http://www.centralq.ai" target="_blank">CentralQ.ai</a> – a p
 
 ## Pricing Plans
 
-Compare the features and offerings of CentralQ Chat Pro and CentralQ.ai to find the best fit for your needs.
+Compare the features and offerings of CentralQ Chat and CentralQ.ai to find the best fit for your needs.
 
-| Feature                           | CentralQ Chat Pro                          | CentralQ.ai                                |
+| Feature                           | CentralQ Chat                              | CentralQ.ai                                |
 |-----------------------------------|--------------------------------------------|--------------------------------------------|
 | **Pricing (Monthly)**             | $29 per user                               | Free                                       |
 | **Pricing (Annual)**              | $299 per user/year                         | Free                                       |
@@ -29,7 +29,7 @@ Compare the features and offerings of CentralQ Chat Pro and CentralQ.ai to find 
 
 ## Trial Period Overview
 
-Enjoy a 30-day free trial of CentralQ Chat Pro with all features included. Trial limitations:
+Enjoy a 30-day free trial of CentralQ Chat with all features included. Trial limitations:
 
 - **Private Data Limit**: 30 MB
 - **User Requests**: 100 per month
