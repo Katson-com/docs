@@ -1,3 +1,5 @@
+![CentralQ Logo](../assets/img/centralq-chat-logo-dark-mode.png)
+
 # Welcome to CentralQ Chat Documentation
 
 CentralQ Chat is your intuitive guide to Microsoft Business Central, providing instant AI-driven answers from various knowledge sources.
