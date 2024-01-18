@@ -14,10 +14,13 @@ Below are some commonly asked questions about CentralQ Chat and their answers, b
 ### Pricing and Plans
 
 1. **What are the pricing plans for CentralQ Chat?**
-   There are two tiers: CentralQ Chat ($29/month per user or $299/year per user) and CentralQ.ai Free (10 free requests/month). The paid tier offers a 30-day free trial with limited features.
+   There are two tiers: CentralQ Chat ($20/month per user or $200/year per user) and CentralQ.ai Free (10 free requests/month). The paid tier offers a 30-day free trial without any limitations.
+
+   <!-- There are two tiers: CentralQ Chat ($20/month per user or $200/year per user) and CentralQ.ai Free (10 free requests/month). The paid tier offers a 30-day free trial with limited features. -->
 
 2. **Are there any trial periods available?**
-   Yes, the CentralQ Chat tier offers a 30-day free trial with full functionality, but lower request limits compared to the paid plan.
+   Yes, the CentralQ Chat tier offers a 30-day free trial with full functionality.
+   <!-- Yes, the CentralQ Chat tier offers a 30-day free trial with full functionality, but lower request limits compared to the paid plan. -->
 
 ### Functionality
 

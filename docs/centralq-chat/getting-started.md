@@ -3,7 +3,7 @@
 ## Introduction
 Welcome to CentralQ Chat, your personalized AI assistant for Microsoft Dynamics 365 Business Central. Available on Microsoft AppSource, this innovative app delivers instant, AI-powered answers to your Business Central queries. CentralQ Chat seamlessly integrates official documentation, your own uploaded guides, and extensive community resources to provide comprehensive, accurate responses for every user.
 
-<div style="padding:55.71% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/893589749?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Getting Started - Promo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:66.73% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/903941954?h=a169fb3d17&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Getting Started"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ## Key Features
 CentralQ Chat stands out with its unique features, making it an indispensable tool for Business Central users:

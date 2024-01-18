@@ -1,6 +1,6 @@
 # CentralQ Chat Release Notes
 
-## Initial Release - Version 0.1.0.0 - [Initial Release Date]
+## Initial Release - Version 0.1.0.0 - [19 Jan 2024]
 
 Welcome to the first release of CentralQ Chat, your comprehensive guide to Microsoft Business Central. This inaugural release brings together the power of AI and a vast repository of knowledge to enhance your Business Central experience.
 

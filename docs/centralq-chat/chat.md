@@ -1,6 +1,6 @@
 CentralQ Chat is an AI-driven interactive guide for Microsoft Business Central, designed to provide instant answers about Business Central Environment sourced from Private Documents, Microsoft Learn, and Community Knowledge.
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/894527053?h=d7763ef406&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - User Input"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.19% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/904030365?h=c8bf9fb738&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - UI"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### User Workflow
 
@@ -14,7 +14,7 @@ CentralQ Chat is an AI-driven interactive guide for Microsoft Business Central, 
 
 - **Preparation Time**: Takes 2-5 seconds to prepare the chat environment upon opening or refreshing.
 
-    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/894521557?h=d40783db67&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Loading"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:56.19% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/904032131?h=0b35aa4b5a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - UI loading"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 - **Input Area**: Ask any question about Business Central. The AI utilizes various knowledge bases depending on your CentralQ Chat Setup configuration.
 - **Input Limitation**: Recommended to keep input within 100-150 words for optimal processing.
@@ -49,7 +49,9 @@ CentralQ Chat is an AI-driven interactive guide for Microsoft Business Central, 
 ### Follow up on topic
 
 - **Follow-up Questions**: Each session allows unlimited follow-up questions, but remember that AI might lose track of earlier parts of the conversation.
-    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/894534909?h=cc3a3d1fc4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Follow up (Copy)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:56.19% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/904035120?h=eb7b9eacb9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Follow up questions"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+- **Related Questions**: CentralQ Chat enhances your search experience by offering up to three related questions based on your initial query. These suggestions are designed to provide different perspectives and delve deeper into the topic, helping you explore various aspects and refine your understanding.
 
 - **Session Reset**: To switch topics, click on `Refresh` the chat to start a new session.
 
@@ -57,7 +59,7 @@ CentralQ Chat is an AI-driven interactive guide for Microsoft Business Central, 
 
 - **Providing Feedback**: Use the :fontawesome-regular-thumbs-up: :fontawesome-regular-thumbs-down: feature and leave comments to help improve answer accuracy and the overall quality of CentralQ Chat.
 
-    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/894547039?h=a33ac49bd6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Feedback (Copy)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:56.19% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/904076393?h=2574b29e2a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Feedback"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### Limitations
 

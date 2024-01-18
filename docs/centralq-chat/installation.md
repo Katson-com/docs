@@ -28,4 +28,5 @@ Assign appropriate permissions to users:
 | Permission Set     | Description |
 |--------------------|-------------|
 | GPT CQC - ADMIN    | Allows configuring the app, registering for CentralQ cloud, uploading private documents, and accessing chat functionality. |
-| GPT CQC - USER     | Enables uploading private documents and accessing chat functionality. |
+| GPT CQC - KB ADMIN | Enables uploading private documents and accessing chat functionality. |
+| GPT CQC - USER     | Grants access to the chat functionality and allows viewing the private knowledge list|

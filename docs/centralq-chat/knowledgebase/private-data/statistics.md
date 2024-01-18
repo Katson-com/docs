@@ -1,10 +1,10 @@
 Access detailed usage statistics of CentralQ Chat through the menu: `Search > CentralQ Chat Setup > Statistics` or `Search > CentralQ Chat > Statistics`. The Statistics page is divided into three main sections: Embedding, User, and Chat.
 
-![CentralQ Chat Statistics](../../assets/img/centralq-chat-statistics.png)
+![CentralQ Chat Statistics](../../../assets/img/centralq-chat-statistics.png)
 
 ### Embedding Statistics
 
-This section provides insights into the tokens used for embedding private data linked to your Chat ID.
+Statistics provides insights into the tokens used for embedding private data linked to your Chat ID.
 
 #### Remaining Tokens (This Month)
 

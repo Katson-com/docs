@@ -14,8 +14,8 @@ Compare the features and offerings of CentralQ Chat and CentralQ.ai to find the 
 
 | Feature                           | CentralQ Chat                              | CentralQ.ai                                |
 |-----------------------------------|--------------------------------------------|--------------------------------------------|
-| **Pricing (Monthly)**             | $29 per user                               | Free                                       |
-| **Pricing (Annual)**              | $299 per user/year                         | Free                                       |
+| **Pricing (Monthly)**             | $20 per user                               | Free                                       |
+| **Pricing (Annual)**              | $200 per user/year                         | Free                                       |
 | **Free Trial**                    | 30 days                                    | -                                          |
 | **Business Central Embedded**     | :material-check:                           | -                                          |
 | **Chat Functionality**            | :material-check:                           | -                                          |
@@ -29,9 +29,13 @@ Compare the features and offerings of CentralQ Chat and CentralQ.ai to find the 
 
 ## Trial Period Overview
 
-Enjoy a 30-day free trial of CentralQ Chat with all features included. Trial limitations:
+Enjoy a 30-day free trial of CentralQ Chat with all features included.
+
+The trial provides a full experience of CentralQ Chat Pro, allowing you to explore its capabilities, without any limitations.
+
+<!-- Enjoy a 30-day free trial of CentralQ Chat with all features included. Trial limitations:
 
 - **Private Data Limit**: 30 MB
 - **User Requests**: 100 per month
 
-The trial provides a full experience of CentralQ Chat Pro, allowing you to explore its capabilities within the set limits.
+The trial provides a full experience of CentralQ Chat Pro, allowing you to explore its capabilities within the set limits. -->
