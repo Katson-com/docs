@@ -9,6 +9,6 @@
     
     Discover how CentralQ Chat revolutionizes your Business Central experience.
 
-    [:octicons-arrow-right-24: Getting Started](centralq-chat/getting-started.md)
+    [:octicons-arrow-right-24: Explore](centralq-chat/index.md)
 
 </div>

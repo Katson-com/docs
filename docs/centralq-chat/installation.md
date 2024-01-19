@@ -2,8 +2,10 @@ This guide outlines the steps to purchase, install, and prepare CentralQ Chat in
 
 ### Purchase the App from AppSource
 
-1. **Finding and Purchasing**: Visit AppSource and search for "CentralQ Chat". 
-2. **Start Free Trial**: Select "Free Trial" on the Product Details page.
+1. **Finding and Purchasing**: Visit [AppSource](https://appsource.microsoft.com) and search for "CentralQ Chat" or navigate to the [CentralQ Chat page](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.katson_com%7CAID.centralq-chat%7CPAPPID.98a1b34c-3b9e-445a-b39b-47b5f35b80b2-preview?flightCodes=ab88b72c488c4f8e9c26070a3fa6edfe&tab=Overview) 
+2. **Start Free Trial**: Select "Buy now" on the Product Details page.
+
+    ![By Now](../assets/img/centralq-chat-buy-now.png)
 3. **Complete the Purchase**: Follow the onscreen instructions. For detailed steps, visit [Purchasing on AppSource](https://learn.microsoft.com/en-us/marketplace/purchase-software-appsource).
 
 ### Assign Licenses
