@@ -1,6 +1,6 @@
 # CentralQ Chat Release Notes
 
-## Initial Release - Version 0.1.0.0 - [19 Jan 2024]
+## Initial Release - Version 0.1.68.0 - [19 Jan 2024]
 
 Welcome to the first release of CentralQ Chat, your comprehensive guide to Microsoft Business Central. This inaugural release brings together the power of AI and a vast repository of knowledge to enhance your Business Central experience.
 
@@ -13,10 +13,7 @@ Welcome to the first release of CentralQ Chat, your comprehensive guide to Micro
 - **Private Documentation Support:** Upload and use your private Business Central documents (PDF, Word, Text) for personalized answers.
 
 ### Known Issues
-- **Limited Localization Support:** Currently supports US, UK, and Canada localizations, with more to be added in future updates.
 - **Context Window Limitation:** Due to AI model limitations, longer conversations may lead to loss of earlier context.
-
-Sure, here's a structure for the "Release Notes" document for CentralQ Chat. This document outlines the updates, enhancements, and any bug fixes made in each version of the application.
 
 <!-- RELEASE NOTES STRUCTURE -->
 <!-- ---
