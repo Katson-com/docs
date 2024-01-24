@@ -39,8 +39,6 @@ CentralQ Chat allows you to control the knowledge base sources for AI responses:
 - **Use Community Knowledge**: Taps into blogs, videos, tweets, and more from the Business Central community. View the [community knowledge list](https://www.centralq.ai/kb) for more information.
 - **Use Private Knowledge**: Utilizes your privately uploaded documents for responses.
 
-Certainly, adding a note to explain the limitations and the nuances of the ranking mechanism will help set realistic expectations for users. Here's how you can integrate it into your documentation:
-
 ### Priorities
 
 CentralQ Chat prioritizes different knowledge bases to ensure the most relevant answers:
