@@ -69,6 +69,15 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | AL0063UUV    | Url Upload            | [New url version upload initiated](#AL0063UUV)           |
 | AL0064UUV    | Url Upload            | [New url version uploaded](#AL0064UUV)                   |
 | AL0065PKF    | Private Knowledge     | [No permission to manage private data](#AL0065PKF)       |
+| AL0066FPD    | File Upload           | [Page Scripting File upload initiated](#AL0066FPD)       |
+| AL0067FPS    | File Upload           | [Page Scripting File upload started](#AL0067FPS)         |
+| AL0068FPP    | File Upload           | [Page Scripting File passed validation](#AL0068FPP)      |
+| AL0069FPC    | File Upload           | [Page Scripting File upload completed](#AL0069FPC)       |
+| AL0070UPD    | Url Upload            | [Page Scripting Url upload initiated](#AL0070UPD)        |
+| AL0071UPS    | Url Upload            | [Page Scripting Url upload started](#AL0071UPS)          |
+| AL0072UPP    | Url Upload            | [Page Scripting Url passed validation](#AL0072UPP)       |
+| AL0073UPC    | Url Upload            | [Page Scripting Url upload completed](#AL0073UPC)        |
+| AL0074FPD    | File Download         | [Page Scripting Manual edit initiated](#AL0074FPD)       |
 | PY0065CHS    | Chat Session          | [Chat session started](#PY0065CHS)                       |
 | PY0066CHQ    | Chat Question         | [New question asked](#PY0066CHQ)                         |
 | PY0067CHQ    | Chat Question         | [Follow-up Question Asked](#PY0067CHQ)                   |
@@ -290,6 +299,33 @@ This event is triggered when a user uploaded a new url version, allowing us to u
 
 ### <a id="AL0065PKF"></a>AL0065PKF - No Permission to Manage Private Data
 This event is triggered when a user tries to manage private data without permission.
+
+### <a id="AL0066FPD"></a>AL0066FPD - Page Scripting File Upload Initiated
+This event is triggered when a user initiates a page scripting file upload.
+
+### <a id="AL0067FPS"></a>AL0067FPS - Page Scripting File Upload Started
+This event is triggered when a user starts a page scripting file upload.
+
+### <a id="AL0068FPP"></a>AL0068FPP - Page Scripting File Passed Validation
+This event is triggered when a user passes page scripting file validation.
+
+### <a id="AL0069FPC"></a>AL0069FPC - Page Scripting File Upload Completed
+This event is triggered when a user completes a page scripting file upload.
+
+### <a id="AL0070UPD"></a>AL0070UPD - Page Scripting Url Upload Initiated
+This event is triggered when a user initiates a page scripting url upload.
+
+### <a id="AL0071UPS"></a>AL0071UPS - Page Scripting Url Upload Started
+This event is triggered when a user starts a page scripting url upload.
+
+### <a id="AL0072UPP"></a>AL0072UPP - Page Scripting Url Passed Validation
+This event is triggered when a user passes page scripting url validation.
+
+### <a id="AL0073UPC"></a>AL0073UPC - Page Scripting Url Upload Completed
+This event is triggered when a user completes a page scripting url upload.
+
+### <a id="AL0074FPD"></a>AL0074FPD - Page Scripting Manual Edit Initiated
+This event is triggered when a user initiates a generated page scripting manual edit.
 
 ## WebApp Telemetry Events
 
