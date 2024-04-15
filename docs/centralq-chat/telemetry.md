@@ -77,7 +77,12 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | AL0071UPS    | Url Upload            | [Page Scripting Url upload started](#AL0071UPS)          |
 | AL0072UPP    | Url Upload            | [Page Scripting Url passed validation](#AL0072UPP)       |
 | AL0073UPC    | Url Upload            | [Page Scripting Url upload completed](#AL0073UPC)        |
-| AL0074FPD    | File Download         | [Page Scripting Manual edit initiated](#AL0074FPD)       |
+| AL0074FPD    | Private Knowledge     | [Page Scripting User Manual edit initiated](#AL0074FPD)  |
+| AL0075FPS    | Private Knowledge     | [Page Scripting User Manual edit started](#AL0075FPS)    |
+| AL0076FPC    | Private Knowledge     | [Page Scripting User Manual edit completed](#AL0076FPC)  |
+| AL0077FDD    | File Download         | [User Manual download to Word initiated](#AL0077FDD)     |
+| AL0078FDS    | File Download         | [User Manual download to Word started](#AL0078FDS)       |
+| AL0079FDC    | File Download         | [User Manual download to Word completed](#AL0079FDC)     |
 | PY0065CHS    | Chat Session          | [Chat session started](#PY0065CHS)                       |
 | PY0066CHQ    | Chat Question         | [New question asked](#PY0066CHQ)                         |
 | PY0067CHQ    | Chat Question         | [Follow-up Question Asked](#PY0067CHQ)                   |
@@ -324,8 +329,23 @@ This event is triggered when a user passes page scripting url validation.
 ### <a id="AL0073UPC"></a>AL0073UPC - Page Scripting Url Upload Completed
 This event is triggered when a user completes a page scripting url upload.
 
-### <a id="AL0074FPD"></a>AL0074FPD - Page Scripting Manual Edit Initiated
-This event is triggered when a user initiates a generated page scripting manual edit.
+### <a id="AL0074FPD"></a>AL0074FPD - Page Scripting User Manual Edit Initiated
+This event is triggered when a user initiates a generated page scripting user manual edit.
+
+### <a id="AL0075FPS"></a>AL0075FPS - Page Scripting User Manual Edit Started
+This event is triggered when a user starts a generated page scripting user manual edit.
+
+### <a id="AL0076FPC"></a>AL0076FPC - Page Scripting User Manual Edit Completed
+This event is triggered when a user completes a generated page scripting user manual edit.
+
+### <a id="AL0077FDD"></a>AL0077FDD - User Manual Download to Word Initiated
+This event is triggered when a user initiates a user manual download to Word.
+
+### <a id="AL0078FDS"></a>AL0078FDS - User Manual Download to Word Started
+This event is triggered when a user starts a user manual download to Word.
+
+### <a id="AL0079FDC"></a>AL0079FDC - User Manual Download to Word Completed
+This event is triggered when a user completes a user manual download to Word.
 
 ## WebApp Telemetry Events
 

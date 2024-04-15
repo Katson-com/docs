@@ -105,6 +105,7 @@ nav:
       - Private Data: 
         - Files: centralq-chat/knowledgebase/private-data/add-files.md
         - Webpages: centralq-chat/knowledgebase/private-data/add-webpages.md
+        - Page scripting: centralq-chat/knowledgebase/private-data/add-page-scripts.md
         - Statistics: centralq-chat/knowledgebase/private-data/statistics.md
       - Public Data: centralq-chat/knowledgebase/public-data.md
     - Chat: centralq-chat/chat.md
