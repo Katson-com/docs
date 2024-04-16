@@ -45,6 +45,15 @@ Below are some commonly asked questions about CentralQ Chat and their answers, b
 7. **I don't see the links to my Business Central pages in the answers. Why?**
    This feature will be available in the next releases of CentralQ Chat. This requires an additional knowledge of currently available pages (standard and custom) that is not available yet. We are working on this feature and will release it as soon as possible.
 
+8. **Can I import page scripting recordings into CentralQ Chat?**
+Yes, CentralQ Chat now allows you to import page scripting from YAML files or via links. This feature automatically generates a detailed user manual in your Business Central language, enhancing your chat responses with relevant and up-to-date scripting actions. You can manage these imports through the `Private Data` section in CentralQ Chat.
+
+9. **Can I edit and export the user manuals generated from page scripting?**
+Yes, CentralQ Chat allows you to edit the user manuals generated from imported page scripting directly within the interface. You can also export these manuals to Word or YAML formats for external use or archiving, providing flexibility in documentation management.
+
+10. **Are new features like page scripting import compatible with all versions of Business Central?**
+The page scripting import functionality is compatible with Business Central versions starting from v24, which introduced the page scripting feature. It is recommended to check specific version compatibility on Microsoft AppSource.
+
 ### Security and Data Privacy
 
 1. **How secure is my private data in CentralQ Chat?**

@@ -30,7 +30,7 @@ CentralQ Chat revolutionizes how users interact with Business Central through it
 ### 2. Comprehensive Knowledge Base
 CentralQ Chat's strength lies in its diverse and extensive knowledge base, which includes:
 
-   - **Private Documents**: Users can upload their own guides, manuals, and documentation. This feature personalizes the AI’s responses, making them more relevant to the user’s specific Business Central setup.
+   - **Private Documents**: Users can upload their own guides, manuals, documentation and even page scripts. This feature personalizes the AI’s responses, making them more relevant to the user’s specific Business Central setup.
 
    - **Microsoft Learn Integration**: Access to Microsoft’s official, up-to-date documentation ensures that users receive reliable and current information directly from the source.
    - **Community Knowledge**: A wealth of insights is available from community-generated content, including expert blogs, instructional videos, tweets, and authoritative books, providing a broader perspective on various topics.
@@ -38,6 +38,32 @@ CentralQ Chat's strength lies in its diverse and extensive knowledge base, which
 ![CentralQ Chat Private Data](../assets/img/centralq-chat-private-data.png)
 
 ![CentralQ Chat Private Question](../assets/img/centralq-chat-private-data-question.png)
+
+!!! new "New Feature"
+    CentralQ Chat now supports importing page scripting directly from YAML files or through links, enhancing the chat's responsiveness with dynamically generated user manuals. This integration allows for seamless updates to the knowledgebase, ensuring that the chat responses remain relevant and contextually accurate.   
+
+#### Importing Page Scripting
+
+CentralQ Chat now supports importing page scripting directly from YAML files or through links, enhancing the chat's responsiveness with dynamically generated user manuals. This integration allows for seamless updates to the knowledgebase, ensuring that the chat responses remain relevant and contextually accurate.
+
+##### Features and Benefits
+
+- **Automated User Manual Generation**: Automatically generates detailed user manuals in the current language setting of Business Central, immediately integrating them into the CentralQ knowledgebase.
+- **Direct Interaction Through Chat**: Each chat response linked to these manuals includes an actionable URL that users can interact with, directly executing relevant page scripting workflows.
+- **Edit and Export Options**: Users can now edit manuals directly within CentralQ Chat and export them in various formats like Word or YAML, providing flexibility in how the information is used and shared.
+
+![CentralQ Chat Page Scripting](../assets/img/centralq-chat-page-script-user-manual.png)
+
+##### How It Works
+
+1. **Upload a Script**: Users can upload a YAML file or paste a link to a scripting page.
+2. **Automated Processing**: CentralQ Chat processes the file or link, generating a user manual that is immediately available for use within the chat.
+3. **Interactive Use**: Users can query the chat about specific scripting actions, and CentralQ Chat will provide responses with direct links to the scripts for live interaction.
+
+![CentralQ Chat Page Scripting](../assets/img/centralq-chat-page-script-chat.png)
+
+This feature significantly streamlines how users interact with Business Central, making complex workflows accessible and manageable through simple chat commands.
+
 
 ### 3. Interactive and Transparent Responses
 Interaction with CentralQ Chat goes beyond receiving answers. Users can delve deeper into topics, ask follow-up questions, and explore related areas, all through a conversational interface. Every response from CentralQ Chat includes citations from relevant sources, adding a layer of transparency and credibility to the information provided.
@@ -47,13 +73,12 @@ Interaction with CentralQ Chat goes beyond receiving answers. Users can delve de
 ![CentralQ Chat Sources](../assets/img/centralq-chat-private-data-sources.png)
 
 ### 4. Multilingual Support
-While CentralQ Chat is optimized for English, offering its best performance in this language, it also supports queries in other languages. This feature makes CentralQ Chat accessible to a wider audience, although users should note that the accuracy of responses in languages other than English may vary.
+While CentralQ Chat is optimized for English, offering its best performance in this language, it also supports queries in other languages. This feature makes CentralQ Chat accessible to a wider audience, although users should note that the accuracy of responses in languages other than English may vary. Generated from page scripting, user manuals are available in the current language setting of Business Central, ensuring that users receive information in a language they are comfortable with.
 
 ### 5. Customizable User Experience
 One of the most notable aspects of CentralQ Chat is its adaptability to user preferences. Users are in control of their experience, deciding whether to use just private documentation, official documentation from Microsoft Learn, community resources, or a combination of these sources. This feature ensures that the AI’s responses are aligned with the user's specific informational needs and preferences.
 
 ![CentralQ Chat Setup](../assets/img/centralq-chat-setup.png)
-
 
 ## How CentralQ Chat Works
 
@@ -71,7 +96,7 @@ For more detailes on usage, visit our [getting started](https://docs.katson.com/
 ### Behind the Scenes
 CentralQ Chat's efficacy lies in its sophisticated backend processes:
 
-- **AI Models and Technology**: At its core, CentralQ Chat utilizes cutting-edge AI models, including OpenAI's GPT-3.5, to understand user queries and generate responses.
+- **AI Models and Technology**: At its core, CentralQ Chat utilizes cutting-edge AI models, including OpenAI's GPT-4, to understand user queries and generate responses.
 - **Ranking Mechanism**: To source information, CentralQ Chat applies a smart ranking system. This system prioritizes sources based on user settings – private documents are usually given the highest priority, followed by Microsoft Learn and Community Knowledge. The AI then combines insights from these sources to provide the most comprehensive answer possible.
 
 ![CentralQ Chat Architecture](../assets/img/centralq-chat-architecture.png)
@@ -90,8 +115,8 @@ CentralQ Chat offers a straightforward and value-driven pricing model tailored t
 
 ### CentralQ Chat Pro
 
-- **Monthly Subscription**: CentralQ Chat is priced at $20 per user per month, making it an affordable addition to any Business Central environment.
-- **Annual Subscription**: For those seeking a longer commitment, an annual subscription is available at $200 per user per year, offering almost 2 months of free usage per year.
+- **Monthly Subscription**: CentralQ Chat is priced at $12 per user per month, making it an affordable addition to any Business Central environment.
+- **Annual Subscription**: For those seeking a longer commitment, an annual subscription is available at $120 per user per year, offering almost 2 months of free usage per year.
 - **Inclusive Features**: The paid plan includes full access to all features of CentralQ Chat, including AI-driven assistance, integration with Microsoft Learn, Community Knowledge access, and the ability to upload and use private documents. This comprehensive access ensures users have all the tools they need for an enhanced Business Central experience.
 - **Private Data Limits**: Users can upload up to 100 MB of private documents monthly, equivalent to approximately 1000 pdf pages, providing ample capacity for most businesses' needs.
 - **Request Limits**: Each user under the paid plan can make up to 500 requests per month, ensuring frequent and consistent access to the AI-driven insights.
