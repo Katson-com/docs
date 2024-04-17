@@ -1,6 +1,6 @@
 # CentralQ Chat Release Notes
 
-## Version 0.1.74.0 - [16 Apr 2024]
+## Version 0.1.76.0 - [16 Apr 2024]
 
 ### New Features
 
