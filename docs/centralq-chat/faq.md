@@ -49,7 +49,7 @@ Below are some commonly asked questions about CentralQ Chat and their answers, b
 Yes, CentralQ Chat now allows you to import page scripting from YAML files or via links. This feature automatically generates a detailed user manual in your Business Central language, enhancing your chat responses with relevant and up-to-date scripting actions. You can manage these imports through the `Private Data` section in CentralQ Chat.
 
 9. **Can I edit and export the user manuals generated from page scripting?**
-Yes, CentralQ Chat allows you to edit the user manuals generated from imported page scripting directly within the interface. You can also export these manuals to Word or YAML formats for external use or archiving, providing flexibility in documentation management.
+Yes, CentralQ Chat allows you to edit the user manuals generated from imported page scripting directly within the interface. You can also export these manuals to Word, Markdown or YAML formats for external use or archiving, providing flexibility in documentation management.
 
 10. **Are new features like page scripting import compatible with all versions of Business Central?**
 The page scripting import functionality is compatible with Business Central versions starting from v24, which introduced the page scripting feature. It is recommended to check specific version compatibility on Microsoft AppSource.
