@@ -1,6 +1,13 @@
 # CentralQ Chat Release Notes
 
-## Version 0.1.76.0 - [16 Apr 2024]
+## Version 0.1.80.0 - [29 Apr 2024]
+
+### New Features
+
+- **Exporting User Manuals to Markdown Format:**
+  Users can now export user manuals generated from page scripting to Markdown format. This feature provides additional flexibility for users who prefer to work with Markdown files, enabling seamless integration with other platforms and tools.
+
+## Version 0.1.77.0 - [16 Apr 2024]
 
 ### New Features
 
