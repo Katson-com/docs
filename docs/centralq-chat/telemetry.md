@@ -83,6 +83,9 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | AL0077FDD    | File Download         | [User Manual download to Word initiated](#AL0077FDD)     |
 | AL0078FDS    | File Download         | [User Manual download to Word started](#AL0078FDS)       |
 | AL0079FDC    | File Download         | [User Manual download to Word completed](#AL0079FDC)     |
+| AL0080FDD    | File Download         | [User Manual download to MD initiated](#AL0080FDD)       |
+| AL0081FDS    | File Download         | [User Manual download to MD started](#AL0081FDS)         |
+| AL0082FDC    | File Download         | [User Manual download to MD completed](#AL0082FDC)       |
 | PY0065CHS    | Chat Session          | [Chat session started](#PY0065CHS)                       |
 | PY0066CHQ    | Chat Question         | [New question asked](#PY0066CHQ)                         |
 | PY0067CHQ    | Chat Question         | [Follow-up Question Asked](#PY0067CHQ)                   |
@@ -215,6 +218,9 @@ This event is triggered when a user initiates a file upload, allowing us to unde
 ### <a id="AL0034FUS"></a>AL0034FUS - File Upload Started
 This event is triggered when a user starts a file upload, allowing us to understand user engagement.
 
+### <a id="AL0035FUP"></a>AL0035FUP - File Passed Validation
+This event is triggered when a user passes file validation, allowing us to understand user engagement.
+
 ### <a id="AL0036FUC"></a>AL0036FUC - File Upload Completed
 This event is triggered when a user completes a file upload, allowing us to understand user engagement.
 
@@ -346,6 +352,15 @@ This event is triggered when a user starts a user manual download to Word.
 
 ### <a id="AL0079FDC"></a>AL0079FDC - User Manual Download to Word Completed
 This event is triggered when a user completes a user manual download to Word.
+
+### <a id="AL0080FDD"></a>AL0080FDD - User Manual Download to MD Initiated
+This event is triggered when a user initiates a user manual download to Markdown.
+
+### <a id="AL0081FDS"></a>AL0081FDS - User Manual Download to MD Started
+This event is triggered when a user starts a user manual download to Markdown.
+
+### <a id="AL0082FDC"></a>AL0082FDC - User Manual Download to MD Completed
+This event is triggered when a user completes a user manual download to Markdown.
 
 ## WebApp Telemetry Events
 
