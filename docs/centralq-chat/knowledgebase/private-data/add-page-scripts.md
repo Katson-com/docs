@@ -49,14 +49,6 @@ To export the manual to Word format, follow these steps: `CentralQ Chat` > `Priv
 !!! note "Changing in Word"
     You can change the content in Word, but the changes will not be reflected in the CentralQ Chat knowledgebase. To update the manual you can copy-paste the content back into the `CentralQ Chat` > `Private Data` > `User Manual` page. If you will import the updated document using the `Upload File` feature, the manual will be duplicated and this will decrease the chat quality, as two manuals will be available for the same topic.
 
-#### Export to Markdown
-To export the manual to Markdown format, follow these steps: `CentralQ Chat` > `Private Data` > `Export to Markdown`
-
-<div style="padding:53.96% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/940618282?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Export User Manual to Markdown"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-!!! warning "Changing in Markdown"
-    You can change the content in Markdown, but the changes will not be reflected in the CentralQ Chat knowledgebase.
-
 #### Export to Yaml
 To export the manual to a `Yaml` file, follow these steps: `CentralQ Chat` > `Private Data` > `Download File`
 
