@@ -1,5 +1,10 @@
 # CentralQ Chat Release Notes
 
+## 0.1.81.1 - [20 Sep 2024]
+
+### Bug Fixes
+- Fixed an issue where file uploads with non-ASCII characters in the filename were not being processed correctly. This resolves problems with importing files that have special characters or are named in non-English languages.
+
 ## Version 0.1.80.0 - [29 Apr 2024]
 
 ### New Features
@@ -77,4 +82,4 @@ Welcome to the first release of CentralQ Chat, your comprehensive guide to Micro
 ### Known Issues
 - ...known issues for this version...
 
-...continue with past versions as applicable... -->
+...continue with past versions as applicable...
