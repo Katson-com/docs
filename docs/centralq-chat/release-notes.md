@@ -1,5 +1,11 @@
 # CentralQ Chat Release Notes
 
+## 0.1.84.0 - [24 Sep 2024]
+
+### Bug Fixes
+- **Improved DateTime Parsing:** Enhanced the parsing of datetimes in private documents when the Business Central date format is set to a non-English language. This improvement ensures more accurate interpretation and processing of date-related information across various language settings.
+
+
 ## 0.1.81.1 - [20 Sep 2024]
 
 ### Bug Fixes
