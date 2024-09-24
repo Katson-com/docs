@@ -1,10 +1,12 @@
 # CentralQ Chat Release Notes
 
-## 0.1.84.0 - [24 Sep 2024]
+## 0.1.85.0 - [24 Sep 2024]
 
 ### Bug Fixes
 - **Improved DateTime Parsing:** Enhanced the parsing of datetimes in private documents when the Business Central date format is set to a non-English language. This improvement ensures more accurate interpretation and processing of date-related information across various language settings.
 
+### Compatibility
+- This version is compatible with Business Central version 24.0 and later.
 
 ## 0.1.81.1 - [20 Sep 2024]
 
@@ -50,6 +52,8 @@ Welcome to the first release of CentralQ Chat, your comprehensive guide to Micro
 ### Known Issues
 - **Context Window Limitation:** Due to AI model limitations, longer conversations may lead to loss of earlier context.
 
+### Compatibility
+- This version is compatible with Business Central version 23.0 and later.
 <!-- RELEASE NOTES STRUCTURE -->
 <!-- ---
 
