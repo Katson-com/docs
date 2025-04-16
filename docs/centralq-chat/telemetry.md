@@ -36,6 +36,9 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | AL0030PKD    | Private Knowledge     | [Private Knowledge disabled](#AL0030PKD)                 |
 | AL0031PKU    | Private Knowledge     | [Private Knowledge used](#AL0031PKU)                     |
 | AL0032PKO    | Private Knowledge     | [Private Knowledge opened](#AL0032PKO)                   |
+| AL0033IAE    | Insights Agent        | [Insights Agent enabled](#AL0033IAE)                     |
+| AL0034IAD    | Insights Agent        | [Insights Agent disabled](#AL0034IAD)                    |
+| AL0035IAS    | Insights Agent        | [Setup Insights Agent opened from Setup](#AL0035IAS)     |
 | AL0033FUD    | File Upload           | [File upload initiated](#AL0033FUD)                      |
 | AL0034FUS    | File Upload           | [File upload started ](#AL0034FUS)                       | 
 | AL0035FUP    | File Upload           | [File passed validation](#AL0035FUP)                     |
@@ -86,6 +89,21 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | AL0080FDD    | File Download         | [User Manual download to MD initiated](#AL0080FDD)       |
 | AL0081FDS    | File Download         | [User Manual download to MD started](#AL0081FDS)         |
 | AL0082FDC    | File Download         | [User Manual download to MD completed](#AL0082FDC)       |
+| AL0083CSD    | Cloud Connection      | [Setup record deleted, associated secrets cleared](#AL0083CSD) |
+| AL0084IAS    | Insights Agent        | [Insights Agent client secret is cleared](#AL0084IAS)    |
+| AL0085IAT    | Insights Agent        | [Insights Agent client secret is set](#AL0085IAT)        |
+| AL0086IAU    | Insights Agent        | [Insights Agent client secret is not set](#AL0086IAU)    |
+| AL0087IAV    | Insights Agent        | [Insights Agent client secret get failed](#AL0087IAV)    |
+| AL0088CCC    | Cloud Connection      | [CentralQ Cloud connection cleared (Table Trigger)](#AL0088CCC) |
+| AL0089IAC    | Insights Agent        | [Insights Agent setup cleared (Table Trigger)](#AL0089IAC) |
+| AL0090IAC    | Insights Agent        | [Insights Agent setup cleared via Setup Page action](#AL0090IAC) |
+| AL0091CCC    | Cloud Connection      | [CentralQ Cloud connection cleared via Setup Page action](#AL0091CCC) |
+| AL0092IBD    | Insights Agent        | [Failed to acquire access token (HTTP send error)](#AL0092IBD) |
+| AL0093IBE    | Insights Agent        | [Failed to acquire access token (HTTP non-success status)](#AL0093IBE) |
+| AL0094IBF    | Insights Agent        | [Failed to acquire access token (Token not found in response)](#AL0094IBF) |
+| AL0095IAZ    | Insights Agent        | [Access token acquired successfully](#AL0095IAZ)         |
+| AL0096IBB    | Insights Agent        | [Successfully connected to Business Central API (Test Connection)](#AL0096IBB) |
+| AL0097IBC    | Insights Agent        | [Failed to connect to Business Central API (Test Connection)](#AL0097IBC) |
 | PY0065CHS    | Chat Session          | [Chat session started](#PY0065CHS)                       |
 | PY0066CHQ    | Chat Question         | [New question asked](#PY0066CHQ)                         |
 | PY0067CHQ    | Chat Question         | [Follow-up Question Asked](#PY0067CHQ)                   |
@@ -211,6 +229,15 @@ This event is triggered when Private Knowledge is used.
 
 ### <a id="AL0032PKO"></a>AL0032PKO - Private Knowledge Opened
 This event is triggered when Private Knowledge is opened.
+
+### <a id="AL0033IAE"></a>AL0033IAE - Insights Agent Enabled
+This event is triggered when the Insights Agent is enabled.
+
+### <a id="AL0034IAD"></a>AL0034IAD - Insights Agent Disabled
+This event is triggered when the Insights Agent is disabled.
+
+### <a id="AL0035IAS"></a>AL0035IAS - Setup Insights Agent Opened from Setup
+This event is triggered when the Insights Agent setup is opened from the Setup page.
 
 ### <a id="AL0033FUD"></a>AL0033FUD - File Upload Initiated
 This event is triggered when a user initiates a file upload, allowing us to understand user engagement.
@@ -361,6 +388,51 @@ This event is triggered when a user starts a user manual download to Markdown.
 
 ### <a id="AL0082FDC"></a>AL0082FDC - User Manual Download to MD Completed
 This event is triggered when a user completes a user manual download to Markdown.
+
+### <a id="AL0083CSD"></a>AL0083CSD - Setup Record Deleted, Associated Secrets Cleared
+This event is triggered when a setup record is deleted, and associated secrets are cleared.
+
+### <a id="AL0084IAS"></a>AL0084IAS - Insights Agent Client Secret is Cleared
+This event is triggered when the Insights Agent client secret is cleared.
+
+### <a id="AL0085IAT"></a>AL0085IAT - Insights Agent Client Secret is Set
+This event is triggered when the Insights Agent client secret is set.
+
+### <a id="AL0086IAU"></a>AL0086IAU - Insights Agent Client Secret is Not Set
+This event is triggered when an attempt to get the Insights Agent client secret finds it is not set.
+
+### <a id="AL0087IAV"></a>AL0087IAV - Insights Agent Client Secret Get Failed
+This event is triggered when getting the Insights Agent client secret fails due to an IsolatedStorage issue.
+
+### <a id="AL0088CCC"></a>AL0088CCC - CentralQ Cloud Connection Cleared (Table Trigger)
+This event is triggered when the CentralQ Cloud connection is cleared via a table trigger.
+
+### <a id="AL0089IAC"></a>AL0089IAC - Insights Agent Setup Cleared (Table Trigger)
+This event is triggered when the Insights Agent setup is cleared via a table trigger.
+
+### <a id="AL0090IAC"></a>AL0090IAC - Insights Agent Setup Cleared via Setup Page Action
+This event is triggered when the Insights Agent setup is cleared via an action on the Setup Page.
+
+### <a id="AL0091CCC"></a>AL0091CCC - CentralQ Cloud Connection Cleared via Setup Page Action
+This event is triggered when the CentralQ Cloud connection is cleared via an action on the Setup Page.
+
+### <a id="AL0092IBD"></a>AL0092IBD - Failed to Acquire Access Token (HTTP Send Error)
+This event is triggered when acquiring the access token fails due to an HTTP send error.
+
+### <a id="AL0093IBE"></a>AL0093IBE - Failed to Acquire Access Token (HTTP Non-success Status)
+This event is triggered when acquiring the access token fails because the HTTP response status was not successful.
+
+### <a id="AL0094IBF"></a>AL0094IBF - Failed to Acquire Access Token (Token Not Found in Response)
+This event is triggered when acquiring the access token fails because the token was not found in the HTTP response.
+
+### <a id="AL0095IAZ"></a>AL0095IAZ - Access Token Acquired Successfully
+This event is triggered when the access token is acquired successfully.
+
+### <a id="AL0096IBB"></a>AL0096IBB - Successfully Connected to Business Central API (Test Connection)
+This event is triggered when the connection test to the Business Central API is successful.
+
+### <a id="AL0097IBC"></a>AL0097IBC - Failed to Connect to Business Central API (Test Connection)
+This event is triggered when the connection test to the Business Central API fails.
 
 ## WebApp Telemetry Events
 
