@@ -106,6 +106,10 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | AL0097IBC    | Insights Agent        | [Failed to connect to Business Central API (Test Connection)](#AL0097IBC) |
 | AL0098CTI    | Chat Session          | [Insights Agent used](#AL0098CTI)                        |
 | AL0099INS    | Insights Agent        | [Insights Agent Feature Uptake](#AL0099INS)              |
+| AL0100IAW    | Insights Agent        | [Insights Agent Discovered (Feature Uptake)](#AL0100IAW) |
+| AL0101IWS    | Insights Agent        | [Insights Agent Wizard opened from Notification](#AL0101IWS)|
+| AL0102IAD    | Insights Agent        | [Insights Agent notification dismissed](#AL0102IAD)      |
+| AL0103IAS    | Insights Agent        | [Insights Agent notification shown](#AL0103IAS)          |
 | PY0065CHS    | Chat Session          | [Chat session started](#PY0065CHS)                       |
 | PY0066CHQ    | Chat Question         | [New question asked](#PY0066CHQ)                         |
 | PY0067CHQ    | Chat Question         | [Follow-up Question Asked](#PY0067CHQ)                   |
@@ -441,6 +445,18 @@ This event is triggered when the Insights Agent is used during a chat session.
 
 ### <a id="AL0099INS"></a>AL0099INS - Insights Agent Feature Uptake
 This event is triggered to log the uptake status of the Insights Agent feature, specifically when it's used.
+
+### <a id="AL0100IAW"></a>AL0100IAW - Insights Agent Discovered (Feature Uptake)
+This event is triggered when the Insights Agent feature is discovered by the user, typically via a notification or wizard prompt.
+
+### <a id="AL0101IWS"></a>AL0101IWS - Insights Agent Wizard Opened from Notification
+This event is triggered when the Insights Agent setup wizard is opened directly from the enablement notification.
+
+### <a id="AL0102IAD"></a>AL0102IAD - Insights Agent Notification Dismissed
+This event is triggered when the user dismisses the notification prompting them to enable the Insights Agent.
+
+### <a id="AL0103IAS"></a>AL0103IAS - Insights Agent Notification Shown
+This event is triggered when the notification prompting the user to enable the Insights Agent is shown.
 
 ## WebApp Telemetry Events
 
