@@ -104,6 +104,8 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | AL0095IAZ    | Insights Agent        | [Access token acquired successfully](#AL0095IAZ)         |
 | AL0096IBB    | Insights Agent        | [Successfully connected to Business Central API (Test Connection)](#AL0096IBB) |
 | AL0097IBC    | Insights Agent        | [Failed to connect to Business Central API (Test Connection)](#AL0097IBC) |
+| AL0098CTI    | Chat Session          | [Insights Agent used](#AL0098CTI)                        |
+| AL0099INS    | Insights Agent        | [Insights Agent Feature Uptake](#AL0099INS)              |
 | PY0065CHS    | Chat Session          | [Chat session started](#PY0065CHS)                       |
 | PY0066CHQ    | Chat Question         | [New question asked](#PY0066CHQ)                         |
 | PY0067CHQ    | Chat Question         | [Follow-up Question Asked](#PY0067CHQ)                   |
@@ -433,6 +435,12 @@ This event is triggered when the connection test to the Business Central API is 
 
 ### <a id="AL0097IBC"></a>AL0097IBC - Failed to Connect to Business Central API (Test Connection)
 This event is triggered when the connection test to the Business Central API fails.
+
+### <a id="AL0098CTI"></a>AL0098CTI - Insights Agent Used
+This event is triggered when the Insights Agent is used during a chat session.
+
+### <a id="AL0099INS"></a>AL0099INS - Insights Agent Feature Uptake
+This event is triggered to log the uptake status of the Insights Agent feature, specifically when it's used.
 
 ## WebApp Telemetry Events
 
