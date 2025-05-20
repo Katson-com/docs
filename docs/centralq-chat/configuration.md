@@ -38,16 +38,29 @@ CentralQ Chat allows you to control the knowledge base sources for AI responses:
 - **Use Microsoft Learn**: Incorporates Microsoft Learn resources into the AI's search scope for answers.
 - **Use Community Knowledge**: Taps into blogs, videos, tweets, and more from the Business Central community. View the [community knowledge list](https://www.centralq.ai/kb) for more information.
 - **Use Private Knowledge**: Utilizes your privately uploaded documents for responses.
+- **Use Insights Agent**: Enables the Data Insights Agent feature, allowing users to query and analyze their live Business Central data.
 
-### Priorities
+### :new: Configuring Data Insights Agent
 
-CentralQ Chat prioritizes different knowledge bases to ensure the most relevant answers:
+If you want to enable data analysis capabilities in CentralQ Chat
 
-- **Private Knowledge**: Highest priority. AI favors information from uploaded documents over other sources.
-- **Microsoft Learn**: Second priority. Used when information is not available in private knowledge, or private knowledge is limited.
-- **Community Knowledge**: Lowest priority, utilized when information is unavailable or limited in the above two sources.
+<div style="padding:49.22% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1085658737?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-data-agent-setup"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-!!! note "AI response specifics"
-    It's important to understand that while private knowledge is prioritized, the AI's response may integrate broader sources for a comprehensive answer.
+1. **Enable the Feature**: On the "CentralQ Chat Setup" page, find the "Chat experience" FastTab and toggle "Use Insights Agent" to enable the feature.
 
-    Due to the limitation of the context window, CentralQ Chat employs a smart retrieval and ranking mechanism. This mechanism allocates more tokens in the context window to content marked with higher prioritization. However, the nature of vector databases and Language Learning Models (LLMs) may lead to a higher utilization of information from community knowledge or Microsoft Learn compared to private knowledge. This variability depends on the specificity of the question and the detail and structure of the private documentation.
+2. **Complete Setup Wizard**: When first enabled, the "Insights Agent Wizard" will open automatically to guide you through the configuration process:
+   - You'll need to provide a Microsoft Entra application's Client ID and Client Secret with appropriate Business Central API permissions
+   - These credentials enable secure data access while respecting user permissions
+
+3. **Manual Configuration**: You can also start the setup process manually using the "Setup Insights Agent" action on the CentralQ Chat Setup page.
+
+!!! info "Detailed Setup Instructions"
+    For complete step-by-step instructions on setting up the Data Insights Agent, see the [Getting Started with Data Insights](data-insights/getting-started.md) guide.
+
+## Next Steps
+
+- 📚 **[Knowledgebase](./knowledgebase/index.md)**: Start building your private knowledge base by uploading documents.
+- 💬 **[Chat](./chat.md)**: Begin using the chat interface to ask questions about Business Central.
+- 📊 **[Data Insights Agent](./data-insights/index.md)**: Learn how to analyze your Business Central data with natural language queries.
+- 🔒 **[Security](./security.md)**: Understand the security measures protecting your data and communications.
+- ❓ **[FAQ](./faq.md)**: Find answers to common questions about using CentralQ Chat.

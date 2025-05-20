@@ -30,6 +30,14 @@ CentralQ Chat is your intuitive guide to Microsoft Business Central, providing i
 
     [:octicons-arrow-right-24: Public Data](knowledgebase/public-data.md)
 
+-   :material-chart-line:{ .lg .middle } __Data Insights Agent__
+
+    ---
+
+    Analyze your Business Central data with natural language queries and visualizations.
+
+    [:octicons-arrow-right-24: Data Insights](data-insights/index.md)
+
 -   :material-security:{ .lg .middle } __Data Security and Privacy__
 
     ---

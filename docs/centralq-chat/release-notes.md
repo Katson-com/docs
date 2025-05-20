@@ -1,5 +1,21 @@
 # CentralQ Chat Release Notes
 
+## 0.1.86.0 - [15 May 2025]
+
+### New Features
+
+- **Data Insights Agent:**
+  CentralQ Chat now includes the powerful Data Insights Agent feature that enables users to analyze their Business Central data using natural language queries. Ask business questions directly in the chat interface and receive both textual answers and visual representations like charts and graphs. This feature transforms how users interact with their data by:
+  
+  - Providing natural language data analysis of live Business Central data
+  - Generating visualizations to identify trends, patterns, and outliers
+  - Supporting queries about sales, customers, inventory, financials, and more
+  - Respecting user permissions to ensure data security
+  - Offering transparent "Thoughts" sections to explain how answers are derived
+
+### Compatibility
+- This version is compatible with Business Central version 25.0 and later.
+
 ## 0.1.85.0 - [24 Sep 2024]
 
 ### Bug Fixes

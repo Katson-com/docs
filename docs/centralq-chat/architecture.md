@@ -12,6 +12,8 @@ CentralQ Chat, integrated within Microsoft Business Central, operates through a 
 
 4. **Azure OpenAI**: Once a final prompt is constructed from the search results, it is sent to Azure OpenAI. The AI then generates the response, which is displayed on the Azure Web App UI.
 
+5. **Data Insights Agent**: This specialized agent works in conjunction with Azure OpenAI and the Azure Web App to enable natural language queries against your Business Central data. It dynamically determines which Business Central APIs to call, what fields to use, and how to process the data to generate insights and visualizations. For a detailed explanation of its mechanics, see [How the Data Insights Agent Works](./data-insights/how-it-works.md).
+
 ### Data Storage and Security
 
 1. **Private Azure Blob Storage**: Used for securely storing user-uploaded files, access to this storage is strictly controlled through secure keys. This ensures that files can only be accessed through designated actions within CentralQ Chat.
@@ -24,9 +26,10 @@ CentralQ Chat, integrated within Microsoft Business Central, operates through a 
 
 ### Operational Flow
 
-- When a user asks a question in CentralQ Chat, the Azure Web App initiates a search process involving both Azure AI Search and Cloud Qdrant.
-- The retrieved data forms a comprehensive prompt sent to the Azure OpenAI instance.
-- The AI instance processes this prompt and sends back an intelligent, context-aware response to the user through the Azure Web App interface.
+- When a user asks a question in CentralQ Chat, the Azure Web App initiates a search process involving both Azure AI Search and Cloud Qdrant (for guidance queries) or engages the Data Insights Agent (for Business Central data queries).
+- For guidance queries, the retrieved data forms a comprehensive prompt sent to the Azure OpenAI instance.
+- For Data Insights queries, the agent constructs and executes queries against Business Central APIs via the Azure Web App, with results then processed by Azure OpenAI to generate a natural language response and visualizations.
+- The AI instance processes this prompt/data and sends back an intelligent, context-aware response to the user through the Azure Web App interface.
 - Files and webpages in the source part are exclusively linked to their respective chat IDs and are not accessible outside of their specific chat environment or in the public domain of centralq.ai.
 
 !!! note

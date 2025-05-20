@@ -110,6 +110,11 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | AL0101IWS    | Insights Agent        | [Insights Agent Wizard opened from Notification](#AL0101IWS)|
 | AL0102IAD    | Insights Agent        | [Insights Agent notification dismissed](#AL0102IAD)      |
 | AL0103IAS    | Insights Agent        | [Insights Agent notification shown](#AL0103IAS)          |
+| AL0104IAD    | Insights Agent        | [Insights Agent setup discovered](#AL0104IAD)            |
+| AL0105IAC    | Insights Agent        | [Insights Agent setup changed](#AL0105IAC)               |
+| AL0106IAW    | Insights Agent        | [Insights Agent Wizard discovered](#AL0106IAW)           |
+| AL0107IAX    | Insights Agent        | [Insights Agent Wizard setup completed](#AL0107IAX)      |
+| AL0108IAY    | Insights Agent        | [Insights Agent setup completed](#AL0108IAY)             |
 | PY0065CHS    | Chat Session          | [Chat session started](#PY0065CHS)                       |
 | PY0066CHQ    | Chat Question         | [New question asked](#PY0066CHQ)                         |
 | PY0067CHQ    | Chat Question         | [Follow-up Question Asked](#PY0067CHQ)                   |
@@ -128,17 +133,25 @@ CentralQ Chat integrates telemetry to gain insights into the app's use, helping 
 | PY0080CCE    | Chat Session          | [Authentication failed](#PY0080CCE)                      |
 | PY0081CCS    | Chat Session          | [Authenticated successfully](#PY0081CCS)                 |
 | PY0082CHR    | Chat Question         | [Related Queries Generated](#PY0082CHR)                  |
+| PY0085CHI    | Intent Detection      | [Intent Detected](#PY0085CHI)                            |
+| PY0086CHE    | Data Insights         | [Data Insights API Fetch Unexpected Error](#PY0086CHE)   |
+| PY0087CHG    | Data Insights         | [Data Insights Code Generated](#PY0087CHG)               |
+| PY0088CHA    | Data Insights         | [Data Insights Result Generated](#PY0088CHA)             |
+| PY0089CHS    | Data Insights         | [Data Insights Code Executed Successfully](#PY0089CHS)   |
+| PY0090CHE    | Data Insights         | [Data Insights Helper Code Error](#PY0090CHE)            |
+| PY0091CHE    | Data Insights         | [Data Insights Build Script Error](#PY0091CHE)           |
+| PY0092CHE    | Data Insights         | [Data Insights Execution Error](#PY0092CHE)              |
+| PY0093CHI    | Data Insights         | [Data Insights Result Interpreted](#PY0093CHI)           |
+| PY0094CHE    | Data Insights         | [Data Insights Interpret Error](#PY0094CHE)              |
+| PY0095CHG    | Data Insights         | [Data Insights Corrected Code Generated](#PY0095CHG)     |
 
 ## Business Central Telemetry Events
 
-<!-- ### <a id="AL0001CHS"></a>AL0001CHS - Chat Session Started
+### <a id="AL0001CHS"></a>AL0001CHS - Chat Session Started
 This event is triggered when a user begins a new chat session, allowing us to understand user engagement.
-
-...
 
 ### <a id="AL0021UNS"></a>AL0021UNS - App Uninstalled from Business Central
 This event is important for understanding the app's lifecycle and reasons for uninstallation.
- -->
 
 ### <a id="AL0001CCO"></a>AL0001CCO - Connect CentralQ Cloud Opened
 This event is triggered when a user opens the Connect CentralQ Cloud, allowing us to understand user engagement.
@@ -458,6 +471,21 @@ This event is triggered when the user dismisses the notification prompting them 
 ### <a id="AL0103IAS"></a>AL0103IAS - Insights Agent Notification Shown
 This event is triggered when the notification prompting the user to enable the Insights Agent is shown.
 
+### <a id="AL0104IAD"></a>AL0104IAD - Insights Agent Setup Discovered
+This event is triggered when the Insights Agent feature is discovered in the Setup page.
+
+### <a id="AL0105IAC"></a>AL0105IAC - Insights Agent Setup Changed
+This event is triggered when Insights Agent setup is changed in the Setup page.
+
+### <a id="AL0106IAW"></a>AL0106IAW - Insights Agent Wizard Discovered
+This event is triggered when the Insights Agent Wizard page is opened/discovered.
+
+### <a id="AL0107IAX"></a>AL0107IAX - Insights Agent Wizard Setup Completed
+This event is triggered when the Insights Agent Wizard setup process is completed successfully.
+
+### <a id="AL0108IAY"></a>AL0108IAY - Insights Agent Setup Completed
+This event is triggered when the Insights Agent setup is fully completed.
+
 ## WebApp Telemetry Events
 
 ### <a id="PY0065CHS"></a>PY0065CHS - Chat Session Started
@@ -514,35 +542,38 @@ This event is triggered when a user successfully authenticates to CentralQ Cloud
 ### <a id="PY0082CHR"></a>PY0082CHR - Related Queries Generated
 This event is triggered when related queries are generated for the question. Question text is included in the event, as well as related queries.
 
+### <a id="PY0085CHI"></a>PY0085CHI - Intent Detected
+This event is triggered when the intent of a user's query is detected, determining whether it's a guidance question or a data insights question.
+
+### <a id="PY0086CHE"></a>PY0086CHE - Data Insights API Fetch Unexpected Error
+This event is triggered when an unexpected error occurs during fetching APIs for the Data Insights agent.
+
+### <a id="PY0087CHG"></a>PY0087CHG - Data Insights Code Generated
+This event is triggered when Python code is successfully generated by the LLM for a data insights query.
+
+### <a id="PY0088CHA"></a>PY0088CHA - Data Insights Result Generated
+This event is triggered when the Data Insights agent successfully completes a data analysis and generates results.
+
+### <a id="PY0089CHS"></a>PY0089CHS - Data Insights Code Executed Successfully
+This event is triggered when the Python code generated for data analysis executes successfully and returns a valid result dictionary.
+
+### <a id="PY0090CHE"></a>PY0090CHE - Data Insights Helper Code Error
+This event is triggered when there's an error loading the helper code for the Data Insights agent.
+
+### <a id="PY0091CHE"></a>PY0091CHE - Data Insights Build Script Error
+This event is triggered when there's an unexpected error during the building of the execution script for data analysis.
+
+### <a id="PY0092CHE"></a>PY0092CHE - Data Insights Execution Error
+This event is triggered when there's an error during the execution of the generated Python code for data analysis.
+
+### <a id="PY0093CHI"></a>PY0093CHI - Data Insights Result Interpreted
+This event is triggered when the Data Insights agent successfully interprets the results of the data analysis.
+
+### <a id="PY0094CHE"></a>PY0094CHE - Data Insights Interpret Error
+This event is triggered when there's an error during the interpretation of data analysis results.
+
+### <a id="PY0095CHG"></a>PY0095CHG - Data Insights Corrected Code Generated
+This event is triggered when the LLM generates corrected Python code after an execution failure. This helps track how often code corrections are needed and their performance characteristics. The event includes telemetry data about the correction process such as input/output tokens, generation time, and other contextual information.
 
 ## Telemetry Data Compliance
 All telemetry data is collected in compliance with privacy laws and regulations. Users are informed of the data collection and can opt-out if desired.
-
-## Feedback
-Your feedback on CentralQ Chat is crucial. If you have suggestions on telemetry events or data handling, please contact us at [contact information].
-
-
-
-<!-- | Event ID     | Area                  | Message                                                  |
-|--------------|-----------------------|----------------------------------------------------------|
-| AL0001CHS    | Chat Session          | Chat session started                                     |
-| AL0002CHQ    | Chat Question         | New question asked                                       |
-| AL0003CHA    | Chat Answer           | Answer generated                                         |
-| AL0004FUP    | File Upload           | File upload initiated                                    |
-| AL0005FUC    | File Upload Complete  | File upload completed                                    |
-| AL0006FUF    | File Upload Fail      | File upload failed                                       |
-| AL0007FDE    | File Deletion         | File deleted                                             |
-| AL0008COC    | Cloud Connection      | CentralQ Cloud connected                                 |
-| AL0009CCH    | Configuration Change  | Configuration changed                                    |
-| AL0010URE    | User Registration     | New user registered                                      |
-| AL0011SUB    | Subscription          | Subscription status changed                              |
-| AL0012FEB    | Feedback              | Feedback submitted                                       |
-| AL0013LIC    | License Assignment    | License assigned to user                                 |
-| AL0014LIR    | License Removal       | License removed from user                                |
-| AL0015TRI    | Trial Period          | Trial period started                                     |
-| AL0016TRIEND | Trial Period End      | Trial period ended                                       |
-| AL0017API    | API Interaction       | API interaction occurred                                 |
-| AL0018SEC    | Security              | Security-related event (login, logout, key generation)   |
-| AL0019ERR    | Error                 | Error occurred in the system                             |
-| AL0020INS    | Installation          | App installed in Business Central                        |
-| AL0021UNS    | Uninstallation        | App uninstalled from Business Central                    | -->

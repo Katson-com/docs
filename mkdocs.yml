@@ -9,7 +9,6 @@ theme:
     - navigation.footer
     - navigation.indexes
     - navigation.tabs
-    - navigation.sections
     - navigation.top
     - navigation.tracking
     - search.suggest
@@ -101,14 +100,23 @@ nav:
     - Pricing : centralq-chat/pricing.md
     - Installation : centralq-chat/installation.md
     - Configuration : centralq-chat/configuration.md
-    - Knowledgebase: 
-      - Private Data: 
+    - Knowledgebase:
+      - Introduction: centralq-chat/knowledgebase/index.md
+      - Private Data:
+        - Overview: centralq-chat/knowledgebase/private-data/index.md
         - Files: centralq-chat/knowledgebase/private-data/add-files.md
         - Webpages: centralq-chat/knowledgebase/private-data/add-webpages.md
         - Page scripting: centralq-chat/knowledgebase/private-data/add-page-scripts.md
         - Statistics: centralq-chat/knowledgebase/private-data/statistics.md
       - Public Data: centralq-chat/knowledgebase/public-data.md
     - Chat: centralq-chat/chat.md
+    - Data Insights Agent:
+      - Introduction: centralq-chat/data-insights/index.md
+      - Getting Started: centralq-chat/data-insights/getting-started.md
+      - Key Features: centralq-chat/data-insights/features.md
+      - How it Works: centralq-chat/data-insights/how-it-works.md
+      - Security: centralq-chat/data-insights/security.md
+      - Examples & Use Cases: centralq-chat/data-insights/examples.md
     - Behinds the scenes: centralq-chat/behinds-the-scenes.md
     - Limitations: centralq-chat/limitations.md
     - Architecture: centralq-chat/architecture.md
@@ -118,7 +126,7 @@ nav:
     - Release Notes: centralq-chat/release-notes.md
     - Whitepaper: centralq-chat/whitepaper.md
 
-copyright: Copyright &copy; Katson.com 2024 All rights Reserved
+copyright: Copyright &copy; Katson.com 2025 All rights Reserved
 
 
     

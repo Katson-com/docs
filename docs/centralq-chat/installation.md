@@ -41,5 +41,13 @@ Assign appropriate permissions to users:
 | Permission Set     | Description |
 |--------------------|-------------|
 | GPT CQC - ADMIN    | Allows configuring the app, registering for CentralQ cloud, uploading private documents, and accessing chat functionality. |
+| GPT CQC - Setup    | Allows Azure Local D365 Admin and Azure Local Global Administrator to set up CentralQ Chat without requiring a license. Includes setup pages access and basic execution permissions. |
 | GPT CQC - KB ADMIN | Enables uploading private documents and accessing chat functionality. |
 | GPT CQC - USER     | Grants access to the chat functionality and allows viewing the private knowledge list|
+
+## Next Steps
+
+- ⚙️ **[Configuration](./configuration.md)**: Configure the app to fit your specific requirements.
+- 📚 **[Knowledgebase](./knowledgebase/index.md)**: Learn how to build and customize your knowledge base.
+- 💬 **[Chat](./chat.md)**: Start using the chat interface and get answers to your Business Central questions.
+- 📊 **[Data Insights Agent](./data-insights/index.md)**: Explore Business Central data using natural language queries.

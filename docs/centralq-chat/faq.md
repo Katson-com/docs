@@ -16,11 +16,8 @@ Below are some commonly asked questions about CentralQ Chat and their answers, b
 1. **What are the pricing plans for CentralQ Chat?**
    There are two tiers: CentralQ Chat ($20/month per user or $200/year per user) and CentralQ.ai Free (10 free requests/month). The paid tier offers a 30-day free trial without any limitations.
 
-   <!-- There are two tiers: CentralQ Chat ($20/month per user or $200/year per user) and CentralQ.ai Free (10 free requests/month). The paid tier offers a 30-day free trial with limited features. -->
-
 2. **Are there any trial periods available?**
    Yes, the CentralQ Chat tier offers a 30-day free trial with full functionality.
-   <!-- Yes, the CentralQ Chat tier offers a 30-day free trial with full functionality, but lower request limits compared to the paid plan. -->
 
 ### Functionality
 
@@ -34,7 +31,7 @@ Below are some commonly asked questions about CentralQ Chat and their answers, b
    No, CentralQ Chat is designed to provide information and cannot execute functions within Business Central.
 
 4. **Can I ask questions about my Business Central data?**
-   No, CentralQ Chat don't have access to your Business Central data and cannot answer queries about it.
+   Yes, with the Data Insights Agent feature enabled, you can ask questions about your live Business Central data and receive insights with visualizations. Without this feature enabled, CentralQ Chat cannot access your Business Central data.
 
 5. **What languages does CentralQ Chat support?**
    While CentralQ Chat is primarily available in English (United States), it is designed to handle private knowledge and chat interactions in various languages. This flexibility allows users worldwide to utilize the app in their preferred language. However, please note that CentralQ Chat has been extensively tested and optimized for English, ensuring the best performance and accuracy in this language. 
@@ -53,6 +50,26 @@ Yes, CentralQ Chat allows you to edit the user manuals generated from imported p
 
 10. **Are new features like page scripting import compatible with all versions of Business Central?**
 The page scripting import functionality is compatible with Business Central versions starting from v24, which introduced the page scripting feature. It is recommended to check specific version compatibility on Microsoft AppSource.
+
+### Data Insights Agent
+
+1. **What is the Data Insights Agent?**
+   The Data Insights Agent is a feature that allows you to analyze your Business Central data by asking questions in natural language. It generates Python code to fetch and analyze your data, then presents results with visualizations like charts and graphs.
+
+2. **How do I enable the Data Insights Agent?**
+   You can enable it in the CentralQ Chat Setup page by toggling the "Use Insights Agent" option in the "Chat experience" FastTab. You'll need to configure the feature with a Microsoft Entra application's Client ID and Client Secret.
+
+3. **What kind of questions can I ask the Data Insights Agent?**
+   You can ask about sales performance, customer behavior, inventory levels, financial metrics, and more. For example: "What were our total sales last month?", "Show me the top 5 customers by revenue", or "Which items have stock below reorder point?"
+
+4. **Does the Data Insights Agent respect my Business Central permissions?**
+   Yes, the Data Insights Agent only allows you to access data that you already have permission to view in Business Central. All data access is governed by your existing security settings.
+
+5. **Is my Business Central data secure when using the Data Insights Agent?**
+   Yes, your data is handled securely. The code executes in an isolated sandbox environment, communication is encrypted, and no Business Central data is stored after analysis. Your actual business data is processed in memory only.
+
+6. **What types of visualizations can the Data Insights Agent create?**
+   The Data Insights Agent can generate various chart types including bar charts, line graphs, pie charts, and more, depending on what best represents the data related to your question.
 
 ### Security and Data Privacy
 

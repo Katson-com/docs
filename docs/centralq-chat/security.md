@@ -20,6 +20,18 @@ CentralQ Chat prioritizes the security and privacy of user data, especially when
 
 - **Azure Keyvault**: This component securely stores sensitive information like chat IDs and keys. It restricts access exclusively to the Azure Web App, further enhancing data security.
 
+### Data Insights Agent Security
+
+- **Sandboxed Execution**: The Data Insights Agent runs in an isolated Hyper-V environment, completely separated from your Business Central data and other processes.
+
+- **Read-Only Operations**: The agent cannot modify your Business Central data and only accesses information the logged-in user is authorized to view.
+
+- **Secure Token Handling**: Authentication uses temporary session tokens that remain within your Business Central environment.
+
+- **No Data Storage**: Business data is processed in memory only and not persisted after analysis.
+
+For comprehensive information about Data Insights Agent security measures, please refer to the [Data Insights Security documentation](data-insights/security.md).
+
 ### Commitment to Privacy
 
 CentralQ Chat is committed to maintaining the highest standards of data privacy and security. This commitment extends to ensuring that user data is not misused for training purposes and that all telemetry and interaction data is solely for improving the app's functionality and user experience. The architecture of CentralQ Chat is designed to safeguard user data while providing a seamless and efficient user interface.

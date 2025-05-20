@@ -2,7 +2,7 @@ CentralQ offers two distinct tiers tailored to meet diverse user needs – the f
 
 ### CentralQ Chat
 
-Unlock the full potential of CentralQ Chat with our paid version. Designed for those who seek a comprehensive, integrated experience with Business Central. CentralQ Chat now includes advanced page scripting capabilities, allowing users to import, manage, and automate workflows directly from YAML files or links, seamlessly integrating detailed script-based interactions into the knowledgebase.
+Unlock the full potential of CentralQ Chat with our paid version. Designed for those who seek a comprehensive, integrated experience with Business Central. CentralQ Chat now includes advanced page scripting capabilities, allowing users to import, manage, and automate workflows directly from YAML files or links, seamlessly integrating detailed script-based interactions into the knowledgebase. The Data Insights Agent feature enables natural language data analysis with visualizations, transforming how you interact with your Business Central data.
 
 ### CentralQ.ai
 
@@ -14,8 +14,8 @@ Compare the features and offerings of CentralQ Chat and CentralQ.ai to find the 
 
 | Feature                           | CentralQ Chat                              | CentralQ.ai                                |
 |-----------------------------------|--------------------------------------------|--------------------------------------------|
-| **Pricing (Monthly)**             | $12 per user                               | Free                                       |
-| **Pricing (Annual)**              | $120 per user/year                         | Free                                       |
+| **Pricing (Monthly)**             | $20 per user                               | Free                                       |
+| **Pricing (Annual)**              | $200 per user/year                         | Free                                       |
 | **Free Trial**                    | 30 days                                    | -                                          |
 | **Business Central Embedded**     | :material-check:                           | -                                          |
 | **Chat Functionality**            | :material-check:                           | -                                          |
@@ -23,17 +23,11 @@ Compare the features and offerings of CentralQ Chat and CentralQ.ai to find the 
 | **Community Knowledge Integration**| :material-check:                          | :material-check:                           |
 | **Private Knowledge Access**      | :material-check:                           | -                                          |
 | **Page Scripting Integration**    | :material-check:                           | -                                          |
+| **Data Insights Agent**           | :material-check:                           | -                                          |
 | **Private Data Formats**          | PDF, Word, Text, Webpages, YAML            | -                                          |
 | **Private Data Limit**            | 100 MB/month (approx. 1000 pdf pages)      | -                                          |
 | **User Requests Limit**           | 500 requests/month                         | 10 requests/month                          |
 
 ## Trial Period Overview
 
-Enjoy a 30-day free trial of CentralQ Chat with all features included, giving you full access to explore its capabilities, including the new page scripting integration.
-
-<!-- Enjoy a 30-day free trial of CentralQ Chat with all features included. Trial limitations:
-
-- **Private Data Limit**: 30 MB
-- **User Requests**: 100 per month
-
-The trial provides a full experience of CentralQ Chat Pro, allowing you to explore its capabilities within the set limits. -->
+Enjoy a 30-day free trial of CentralQ Chat with all features included, giving you full access to explore its capabilities, including the new page scripting integration and Data Insights Agent.
