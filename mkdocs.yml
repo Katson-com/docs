@@ -17,6 +17,7 @@ theme:
     - content.code.annotate
     - content.code.copy
     - header.autohide
+    - content.action.view
   language: en
   palette:
     scheme: slate
@@ -125,6 +126,9 @@ nav:
     - FAQ: centralq-chat/faq.md
     - Release Notes: centralq-chat/release-notes.md
     - Whitepaper: centralq-chat/whitepaper.md
+
+repo_url: https://github.com/Katson-com/docs
+edit_uri: edit/main/docs/
 
 copyright: Copyright &copy; Katson.com 2025 All rights Reserved
 
