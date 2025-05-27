@@ -2,7 +2,7 @@
 
 # Welcome to CentralQ Chat Documentation
 
-CentralQ Chat is your intuitive guide to Microsoft Business Central, providing instant AI-driven answers from various knowledge sources.
+CentralQ Chat is AI for Your Business Central. It transforms how you interact with your Business Central environment by providing instant, AI-driven answers from your business data and various knowledge sources. Whether you need help with system functionality, want to analyze your data, or need guidance on Business Central processes, CentralQ Chat is your intelligent companion.
 
 <div class="grid cards" markdown>
 
