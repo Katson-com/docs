@@ -576,4 +576,4 @@ This event is triggered when there's an error during the interpretation of data 
 This event is triggered when the LLM generates corrected Python code after an execution failure. This helps track how often code corrections are needed and their performance characteristics. The event includes telemetry data about the correction process such as input/output tokens, generation time, and other contextual information.
 
 ## Telemetry Data Compliance
-All telemetry data is collected in compliance with privacy laws and regulations. Users are informed of the data collection and can opt-out if desired.
+All telemetry data is collected in compliance with privacy laws and regulations. Users are informed of the data collection.
