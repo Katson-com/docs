@@ -2,7 +2,7 @@
 
 The Data Insights Agent uses a sophisticated process to turn your natural language questions about Business Central data into actionable insights and visualizations.
 
-<div style="padding:49.27% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1085915132?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-data-insights-item-sales"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:49.27% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/dbff040f-de80-4bc4-8a5e-e49038ac1249?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-data-insights-item-sales"></iframe></div>
 
 ## The Process: From Question to Insight
 

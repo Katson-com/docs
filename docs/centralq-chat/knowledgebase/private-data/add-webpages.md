@@ -9,7 +9,7 @@ CentralQ Chat allows users to enrich their private knowledge base by adding URLs
 3. **Status and Insights**: After submitting, you can view the URL's status in the Private Data list. The status might show as `Processing` or `Ready`. AI-generated summaries and token counts are visible in the Insights factbox.
 4. **Error Handling**: In case of an error, an error message will be displayed.
 
-<div style="padding:56.19% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/904026969?h=dd364ac6f5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Private Data - Add Url"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.19% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/33b21c4f-eaf7-4c11-8970-3f49e7c7b9b4?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Private Data - Add Url"></iframe></div>
 
 ### Considerations for Adding URLs
 

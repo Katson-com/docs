@@ -15,7 +15,7 @@ CentralQ Chat enhances its response capabilities by utilizing two types of publi
 
 Explore the [list](https://www.centralq.ai/kb) of sources included in the Community Knowledge database:
 
-<div style="padding:52.37% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/907437623?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ - sources"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:52.37% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/082ddf0d-7239-4b71-8ed0-bd165caf5918?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ - sources"></iframe></div>
 
 or explore the latest updates in this interactive [Power BI report](https://app.powerbi.com/view?r=eyJrIjoiM2E5N2I4MTYtMWY5OC00MjM1LWE4OTMtZTU3MTQzYzUzNjkxIiwidCI6IjM1MzJlNTJkLTk5NTEtNGNiZS05MWM1LTllMjJjNjJlM2E3MSIsImMiOjEwfQ%3D%3D).
 

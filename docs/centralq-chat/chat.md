@@ -1,6 +1,6 @@
 CentralQ Chat is an AI-driven interactive guide for Microsoft Business Central, designed to provide instant answers about Business Central Environment sourced from Private Documents, Microsoft Learn, and Community Knowledge. It also enables data analysis capabilities, allowing users to query Business Central data using natural language and receive visual insights with charts and graphs.
 
-<div style="padding:56.19% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/904030365?h=c8bf9fb738&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - UI"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.19% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/8ce68ee5-3441-47ac-8d81-107b209d9fd7?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - UI"></iframe></div>
 
 ### What can you ask?
 Users can ask two types of questions:
@@ -20,7 +20,7 @@ Users can ask two types of questions:
 
 - **Preparation Time**: Takes 2-5 seconds to prepare the chat environment upon opening or refreshing.
 
-    <div style="padding:56.19% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/904032131?h=0b35aa4b5a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - UI loading"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:56.19% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/a3cd531d-49a2-4e74-833d-c4a97ba88e46?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - UI loading"></iframe></div>
 
 - **Input Area**: Ask any question about Business Central. The AI utilizes various knowledge bases depending on your CentralQ Chat Setup configuration.
 - **Input Limitation**: Recommended to keep input within 100-150 words for optimal processing.
@@ -33,7 +33,7 @@ Guidance questions allow users to get help with Business Central functionality, 
 - **Microsoft Learn**: Official Business Central documentation
 - **Community Knowledge**: Expert blogs, videos, and community content
 
-<div style="padding:49.64% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1085595373?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-getting-started-guidance"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:49.64% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/6afdc1c6-f48e-4f5b-a638-1113893aa5bd?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-getting-started-guidance"></iframe></div>
 
 
 1. **Starting a Session**: Each session focuses on a specific user intent, beginning with the user's initial question.
@@ -67,7 +67,7 @@ Guidance questions allow users to get help with Business Central functionality, 
 ### Follow up on topic
 
 - **Follow-up Questions**: Each session allows unlimited follow-up questions, but remember that AI might lose track of earlier parts of the conversation.
-    <div style="padding:56.19% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/904035120?h=eb7b9eacb9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Follow up questions"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:56.19% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/33b11971-2b0f-4466-84bb-7af941f74743?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Follow up questions"></iframe></div>
 
 
 ### :material-new-box: Data Insights Agent
@@ -78,7 +78,7 @@ With the Data Insights Agent feature enabled, CentralQ Chat can analyze your Bus
 - **Visual Insights**: Receive answers with charts and graphs to better understand trends and patterns
 - **Business Intelligence**: Get key business insights on sales, financials, inventory, and more directly in the chat
 
-<div style="padding:49.27% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1085683957?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-data-insights-sales-trend-with-follow-up"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:49.27% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/1c46e6fe-0d23-4d58-bd26-e9a4ca0e36db?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-data-insights-sales-trend-with-follow-up"></iframe></div>
 
 !!! info
     The Data Insights Agent is an optional feature that requires additional configuration.
@@ -88,7 +88,7 @@ With the Data Insights Agent feature enabled, CentralQ Chat can analyze your Bus
 
 - **Providing Feedback**: Use the :fontawesome-regular-thumbs-up: :fontawesome-regular-thumbs-down: feature and leave comments to help improve answer accuracy and the overall quality of CentralQ Chat.
 
-    <div style="padding:56.19% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/904076393?h=2574b29e2a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Feedback"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:56.19% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/45611569-4028-4c75-916a-d3d438011fb2?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Feedback"></iframe></div>
 
 ### Limitations
 

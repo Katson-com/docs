@@ -20,13 +20,13 @@ Follow these steps to configure CentralQ Chat for an optimized, secure, and pers
     !!! warning "Important"
         Keep your Chat Id and Secret Key safe. Losing them means losing access to your private knowledge.
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/893995665?h=0263a23be1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Set up"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/9511419b-5c74-4582-8d51-fb11a23d8324?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Set up"></iframe></div>
 
 #### Existing Users
 If you already use CentralQ Chat and have uploaded a knowledge base, toggle "I have Chat Id" and enter your Chat Id and Secret Key to retrieve your data.
 You should see Authentication Successful message. In case you see Authentication Failed, please check your Chat Id and Secret Key.
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/894000719?h=94873d9956&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Set up for Existing Chat"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/2c88058e-8036-456a-a29e-c2510d2e1d62?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Set up for Existing Chat"></iframe></div>
 
 #### Completing Setup
 Proceed with "Next" and "Finish" to complete the registration or connection to CentralQ Cloud.
@@ -44,7 +44,7 @@ CentralQ Chat allows you to control the knowledge base sources for AI responses:
 
 If you want to enable data analysis capabilities in CentralQ Chat
 
-<div style="padding:49.22% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1085658737?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-data-agent-setup"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:49.22% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/8ab2bcc1-a6e4-4eff-92d6-2fd01180e0a8?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-data-agent-setup"></iframe></div>
 
 1. **Enable the Feature**: On the "CentralQ Chat Setup" page, find the "Chat experience" FastTab and toggle "Use Insights Agent" to enable the feature.
 

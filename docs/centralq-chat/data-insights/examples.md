@@ -2,7 +2,7 @@
 
 This page provides practical examples of how to use the Data Insights Agent with your Business Central data.
 
-<div style="padding:49.38% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1085920525?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-data-insights-sales-trend-example"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:49.38% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/b9ca13fe-c9c0-4ed4-beec-8e60220f59c6?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-data-insights-sales-trend-example"></iframe></div>
 
 !!! tip "Example images"
     The screenshots and visualizations shown are examples. Your actual results will depend on your specific Business Central data and question phrasing.

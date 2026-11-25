@@ -3,7 +3,7 @@
 ## Introduction
 Welcome to CentralQ Chat, your personalized AI assistant for Microsoft Dynamics 365 Business Central. Available on Microsoft AppSource, this innovative app delivers instant, AI-powered answers to your Business Central queries. CentralQ Chat seamlessly integrates official documentation, your own uploaded guides, and extensive community resources to provide comprehensive, accurate responses for every user.
 
-<div style="padding:49.64% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1085595373?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-getting-started-guidance"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:49.64% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/6afdc1c6-f48e-4f5b-a638-1113893aa5bd?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-getting-started-guidance"></iframe></div>
 
 ## Key Features
 CentralQ Chat stands out with its unique features, making it an indispensable tool for Business Central users:
@@ -29,7 +29,7 @@ CentralQ Chat simplifies your interaction with Business Central, making it easie
 
 The Data Insights Agent is a powerful feature that allows you to analyze your Business Central data directly within the chat interface.
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1085646199?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-data-insights-agent-with-follow-up"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/e1f5e2a7-d94c-4106-ba33-374133830ace?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="centralq-chat-data-insights-agent-with-follow-up"></iframe></div>
 
 1. **Ask Data Questions**: Type natural language questions about your business data, such as "What were our sales for item X last quarter?" or "Show inventory levels for products in the 'Finished Goods' category."
 2. **View Visual Results**: Receive both textual summaries and interactive visualizations including bar charts, line graphs, and pie charts.

@@ -10,13 +10,13 @@ This guide outlines the steps to purchase, install, and prepare CentralQ Chat in
 
 3. **Complete the Purchase**: Follow the onscreen instructions. For detailed steps, visit [Purchasing on AppSource](https://learn.microsoft.com/en-us/marketplace/purchase-software-appsource).
 
-    <div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/905073846?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Purchase"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/9e004d91-d65c-4922-99ea-e98d817a02db?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Purchase"></iframe></div>
 
 ### Assign Licenses
 
 After purchasing, assign licenses to users through the Microsoft 365 admin center. For instructions, see [Assigning Licenses to Users](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide#use-the-licenses-page-to-assign-licenses-to-users).
 
-<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/905163820?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Assign License"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/3b4be02a-623e-48a8-be25-33606f579dca?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Assign License"></iframe></div>
 
 
 ### Extension Installation
@@ -32,7 +32,7 @@ After purchasing, assign licenses to users through the Microsoft 365 admin cente
 
 Or use the `Install this product` from the `Microsoft 365 Admin Center` > `Licenses` > `CentralQ Chat - Professional`
 
-<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/905169176?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Installation"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://iframe.mediadelivery.net/embed/820419/0256f7c4-43c1-4db2-b2bf-aee31ddc9588?autoplay=false&amp;preload=true&amp;responsive=true" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" title="CentralQ Chat - Installation"></iframe></div>
 
 ### Assign Permissions
 
